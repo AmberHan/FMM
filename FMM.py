@@ -181,6 +181,7 @@ if __name__ == '__main__':
     write_csv('戏曲名', ['章节', '标题'], rets0)
     # 词牌名
     rets3 = []
+    print(rets1)
     for r in rets1:
         rets3.append([r])
     print(rets3)

@@ -2,7 +2,7 @@
 # !-*- coding:utf-8 -*-
 # !@Time   : 2022/8/9 1:42
 # !@Author : DongHan Yang
-# !@File   : 1.py
+# !@File   : sp.py
 
 txt_path = 'dic/mdt.txt'
 
