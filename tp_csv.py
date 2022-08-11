@@ -8,6 +8,7 @@ from neo4j import GraphDatabase
 import logging
 from neo4j.exceptions import ServiceUnavailable
 import csv
+from urllib.parse import quote
 
 
 class App:
@@ -79,6 +80,30 @@ def relationship_quary(file, fn1, fn2, hd):
     """
     return csv_quary
 
+# 处理本地和云端数据
+def do_path(fname):
+    fnamek = quote(fname)
+    path = f"csv/{fname}.csv"
+    path1 = f"https://github.com/AmberHan/FMM/raw/main/csv/{fnamek}.csv"
+    category, hd = pd_head(path)
+    return category, hd, path1
+
+# 实体
+def node(fname):
+    category, hd, path = do_path(fname)
+    # title = hd[0]
+    # app.constraint(category, title)  # 建立依赖
+    load_csv = create_quary(path, category, hd)
+    print(load_csv)
+    app.run_query(load_csv)
+
+# 关系
+def relation(fname):
+    categorys, hd, path = do_path(fname)
+    ca = categorys.split('_')
+    load_csv = relationship_quary(path, ca[0], ca[1], hd)
+    print(load_csv)
+    app.run_query(load_csv)
 
 # 实体csv: 文件名为类名；文件头为属性；第一列为唯一性
 # 实体关系：文件名为两个类名；文件头为类1的属性、关系、类2的属性（对应实体csv的head）
@@ -89,22 +114,8 @@ if __name__ == "__main__":
     password = "fUAA-yIqnA5MXltzdWHBSPYJ5cDRiTuVJvWz1Sg3IEY"
     app = App(uri, user, password)
     # 实体1
-    # path = "csv/movies.csv"
-    # path1 = "https://data.neo4j.com/intro/movies/movies.csv"
-    path = "csv/词牌名.csv"
-    path1 = "https://data.neo4j.com/intro/movies/movies.csv"
-    category, hd = pd_head(path)
-    title = hd[0]
-    # app.constraint(category, title)  # 建立依赖
-    load_csv = create_quary(path1, category, hd)
-    print(load_csv)
-    app.run_query(load_csv)
+    node("词牌名")
+    node("戏曲名")
     # 实体间的关系
-    path2 = "csv/movie_person.csv"
-    path3 = "https://data.neo4j.com/intro/movies/actors.csv"
-    categorys, hd = pd_head(path2)
-    ca = categorys.split('_')
-    load_csv = relationship_quary(path3, ca[0], ca[1], hd)
-    print(load_csv)
-    app.run_query(load_csv)
+    relation("戏曲名_词牌名")
     app.close()

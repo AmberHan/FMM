@@ -197,7 +197,7 @@ if __name__ == '__main__':
             pro_num = cps.count(cp)
             rets4.append([zj, pro_num, cp])
     print(rets4)
-    write_csv('戏曲名_词牌名', ['from', 'num', 'to'], rets4)
+    write_csv('戏曲名_词牌名', ['章节', '次数', '词牌名'], rets4)
     # write_csv()
     # print(changeData(rets))
     # print(doubleMax(text, 'dic/cpm.txt'))
