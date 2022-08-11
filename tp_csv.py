@@ -33,7 +33,7 @@ class App:
         # Create the driver session
         with self.driver.session() as session:
             try:
-                session.run(query).data()
+                print(session.run(query).data())
             # 可能有问题
             except ServiceUnavailable as exception:
                 logging.error("{query} raised an error: \n {exception}".format(
@@ -41,6 +41,7 @@ class App:
                 raise
 
 
+# 处理csv的head
 def pd_head(file):
     with open(file, 'r', encoding='utf-8') as fr:
         reader = csv.DictReader(fr)
@@ -51,6 +52,7 @@ def pd_head(file):
         return fn, headers
 
 
+# 创建语句
 def create_quary(file, fn, hd):
     # fn, hd = pd_head(file)
     csv_quary0 = f"""
@@ -66,6 +68,7 @@ def create_quary(file, fn, hd):
     return csv_quary0 + csv_quary1
 
 
+# 关系语句
 def relationship_quary(file, fn1, fn2, hd):
     csv_quary = f"""
         LOAD CSV
@@ -80,6 +83,7 @@ def relationship_quary(file, fn1, fn2, hd):
     """
     return csv_quary
 
+
 # 处理本地和云端数据
 def do_path(fname):
     fnamek = quote(fname)
@@ -87,6 +91,7 @@ def do_path(fname):
     path1 = f"https://github.com/AmberHan/FMM/raw/main/csv/{fnamek}.csv"
     category, hd = pd_head(path)
     return category, hd, path1
+
 
 # 实体
 def node(fname):
@@ -97,6 +102,7 @@ def node(fname):
     print(load_csv)
     app.run_query(load_csv)
 
+
 # 关系
 def relation(fname):
     categorys, hd, path = do_path(fname)
@@ -105,9 +111,11 @@ def relation(fname):
     print(load_csv)
     app.run_query(load_csv)
 
+
 # 实体csv: 文件名为类名；文件头为属性；第一列为唯一性
 # 实体关系：文件名为两个类名；文件头为类1的属性、关系、类2的属性（对应实体csv的head）
 # 注意本代码都要是中文 加了``
+# 第一次运行时，需要建立实体的独立性
 if __name__ == "__main__":
     uri = "neo4j+s://5bd229c3.databases.neo4j.io"
     user = "neo4j"
