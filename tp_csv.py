@@ -123,7 +123,7 @@ if __name__ == "__main__":
     app = App(uri, user, password)
     # 实体1
     node("词牌名")
-    node("戏曲名")
+    node("牡丹亭")
     # 实体间的关系
-    relation("戏曲名_词牌名")
+    relation("牡丹亭_词牌名")
     app.close()

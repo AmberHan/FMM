@@ -157,37 +157,37 @@ if __name__ == '__main__':
     # tokenizer = rightMax('dic/cpm.txt')
     txt_path = 'dic/mdt.txt'
     flag = 0
-    rets = []
-    rets0 = []
-    rets1 = set()
+    rets = []  # 关系
+    rets0 = []  # 戏曲名牡丹亭
+    rets1 = set()  # 词牌名
     with open(txt_path, 'r', encoding="utf-8") as f:
         for line in f:
             line = line.strip()
             if not line:
                 continue
-            # if line.count("第") and line.count("出"):
-            if line[0] == "第" and line[2] == "出":
+            if line.split()[0][0] == "第" and line.split()[0][-1] == "出":
                 flag += 1
                 rets0.append(line.split())
+                rets0[-1].append('牡丹亭')
                 rets.append([])
             if flag > 0:
                 # line = re.split(r'[，:。]', line)
                 la = tokenizer.cut(line)
                 if la is not None:
-                    rets[flag - 1].extend(la)
+                    rets[- 1].extend(la)
                     rets1 |= set(la)
     # 戏曲名
-    print(rets0)
-    write_csv('戏曲名', ['章节', '标题'], rets0)
+    print("戏曲名：", rets0)
+    write_csv('牡丹亭', ['章节', '标题', '戏曲名'], rets0)
     # 词牌名
     rets3 = []
-    print(rets1)
+    print("所有词牌名", rets1)
     for r in rets1:
         rets3.append([r])
-    print(rets3)
+    print("每一出词牌名", rets3)
     write_csv('词牌名', ['词牌名'], rets3)
     # 戏曲和词牌名关系
-    print(rets)
+    print("关系列表：", rets)
     rets4 = []
     i = 0
     for cps in rets:
@@ -197,8 +197,8 @@ if __name__ == '__main__':
         for cp in cps_set:
             pro_num = cps.count(cp)
             rets4.append([zj, pro_num, cp])
-    print(rets4)
-    write_csv('戏曲名_词牌名', ['章节', '次数', '词牌名'], rets4)
+    print("关系：", rets4)
+    write_csv('牡丹亭_词牌名', ['章节', '次数', '词牌名'], rets4)
     # write_csv()
     # print(changeData(rets))
     # print(doubleMax(text, 'dic/cpm.txt'))
