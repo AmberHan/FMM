@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46c557ae-57b8-4656-a069-c26aee772f9d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dic/汤显祖牡丹亭.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sp1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv/牡丹亭.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/牡丹亭.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/csv/牡丹亭_词牌名.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/牡丹亭_词牌名.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/csv/词牌名.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/词牌名.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sp.py" beforeDir="false" afterPath="$PROJECT_DIR$/sp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tp_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/tp_csv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sp1.py" beforeDir="false" afterPath="$PROJECT_DIR$/sp1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,37 +15,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sp1.py">
+        <entry file="file://$PROJECT_DIR$/tp_csv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="48" column="42" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
+            <state relative-caret-position="35">
+              <caret line="70" column="6" lean-forward="true" selection-start-line="70" selection-start-column="6" selection-end-line="70" selection-end-column="6" />
               <folding>
-                <element signature="e#119#128#0" expanded="true" />
+                <element signature="e#144#175#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dic/汤显祖牡丹亭.txt">
+        <entry file="file://$PROJECT_DIR$/sp1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-552">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FMM.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1449">
-              <caret line="197" column="35" lean-forward="true" selection-start-line="197" selection-start-column="35" selection-end-line="197" selection-end-column="35" />
+            <state relative-caret-position="87">
+              <caret line="38" column="34" lean-forward="true" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
               <folding>
-                <element signature="e#102#111#0" expanded="true" />
-                <element signature="e#1711#2973#0" />
-                <element signature="e#3014#3868#0" />
-                <element signature="e#3902#4096#0" />
-                <element signature="e#4099#4121#0" />
+                <element signature="e#119#128#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,6 +62,8 @@
       <find>[</find>
       <find>前</find>
       <find>第</find>
+      <find>蝶恋花</find>
+      <find>前腔</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -100,14 +84,14 @@
         <option value="$PROJECT_DIR$/sp.py" />
         <option value="$PROJECT_DIR$/GS.py" />
         <option value="$PROJECT_DIR$/dic/汤显祖牡丹亭.txt" />
-        <option value="$PROJECT_DIR$/demo.py" />
         <option value="$PROJECT_DIR$/csv/wcsv.py" />
         <option value="$PROJECT_DIR$/FMM.py" />
+        <option value="$PROJECT_DIR$/demo.py" />
         <option value="$PROJECT_DIR$/sp1.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-71" />
     <option name="y" value="99" />
     <option name="width" value="1944" />
@@ -168,7 +152,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.sp1">
+  <component name="RunManager" selected="Python.tp_csv">
     <configuration name="FMM" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="NPL" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -232,27 +216,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sp" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="NPL" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sp.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="sp1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="NPL" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -274,20 +237,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="tp_csv" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="NPL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tp_csv.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.GS" />
-      <item itemvalue="Python.sp" />
       <item itemvalue="Python.sp1" />
       <item itemvalue="Python.demo" />
       <item itemvalue="Python.FMM" />
+      <item itemvalue="Python.tp_csv" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.tp_csv" />
         <item itemvalue="Python.sp1" />
-        <item itemvalue="Python.FMM" />
         <item itemvalue="Python.demo" />
+        <item itemvalue="Python.FMM" />
         <item itemvalue="Python.GS" />
-        <item itemvalue="Python.sp" />
       </list>
     </recent_temporary>
   </component>
@@ -314,16 +298,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19936457" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19936457" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3283859" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3135436" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.2857143" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3320965" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.42300555" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3283859" />
@@ -402,6 +386,11 @@
           <url>file://$PROJECT_DIR$/FMM.py</url>
           <line>168</line>
           <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sp1.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -534,16 +523,6 @@ print(ret)</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tp_csv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding>
-            <element signature="e#144#175#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -565,13 +544,6 @@ print(ret)</expression-string>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -599,10 +571,17 @@ print(ret)</expression-string>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dic/汤显祖牡丹亭.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-552">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" selection-end-column="2" />
+        <state relative-caret-position="222">
+          <caret line="241" column="3" selection-start-line="241" selection-start-column="1" selection-end-line="241" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -622,10 +601,20 @@ print(ret)</expression-string>
     </entry>
     <entry file="file://$PROJECT_DIR$/sp1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="48" column="42" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
+        <state relative-caret-position="87">
+          <caret line="38" column="34" lean-forward="true" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
           <folding>
             <element signature="e#119#128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tp_csv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="70" column="6" lean-forward="true" selection-start-line="70" selection-start-column="6" selection-end-line="70" selection-end-column="6" />
+          <folding>
+            <element signature="e#144#175#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -33,7 +33,13 @@ def pp(chooseList):
                 rets0[-1].append('牡丹亭')
                 rets.append([])
             if start:
+                # 如果不是前腔，更新
+                line2 = re.findall(r"[【]+(\w+)+[】]", line)
+                if line2 and line2[0] != "前腔":
+                    pre = line2[0]
                 line1 = re.findall(r"[［|【]+(\w+)+[］|】]", line)
+                if line1 and line1[0] == "前腔":
+                    line1[0] = pre
                 rets[- 1].extend(line1)
                 rets1 |= set(line1)
     print("牡丹亭章节：", rets0)
