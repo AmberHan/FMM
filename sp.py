@@ -3,8 +3,7 @@
 # !@Time   : 2022/8/9 1:42
 # !@Author : DongHan Yang
 # !@File   : sp.py
-
-txt_path = 'dic/mdt.txt'
+import re
 
 
 def pp(a, b):
@@ -62,6 +61,8 @@ def pp1():
     print(rets)
 
 
-# pp("【", "】")
-# pp("〔", "〕")
-pp1()
+if __name__ == '__main__':
+    txt_path = 'dic/mdt.txt'
+    # pp("【", "】")
+    # pp("〔", "〕")
+    pp1()

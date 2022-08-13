@@ -96,8 +96,11 @@ def do_path(fname):
 # 实体
 def node(fname):
     category, hd, path = do_path(fname)
-    # title = hd[0]
-    # app.constraint(category, title)  # 建立依赖
+    title = hd[0]
+    try:
+        app.constraint(category, title)  # 建立依赖
+    except:
+        pass
     load_csv = create_quary(path, category, hd)
     print(load_csv)
     app.run_query(load_csv)
