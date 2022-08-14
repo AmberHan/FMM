@@ -4,6 +4,8 @@
     <list default="true" id="46c557ae-57b8-4656-a069-c26aee772f9d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GS.py" beforeDir="false" afterPath="$PROJECT_DIR$/GS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv/牡丹亭_诗人.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv/诗人.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/诗人.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tp_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/tp_csv.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tp_csv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="137" lean-forward="true" selection-start-line="137" selection-end-line="137" />
+            <state relative-caret-position="35">
+              <caret line="135" column="25" selection-start-line="135" selection-start-column="25" selection-end-line="135" selection-end-column="25" />
               <folding>
                 <element signature="e#144#175#0" expanded="true" />
               </folding>
@@ -29,8 +31,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GS.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="69" column="49" lean-forward="true" selection-start-line="69" selection-start-column="49" selection-end-line="69" selection-end-column="49" />
+            <state relative-caret-position="167">
+              <caret line="75" column="14" lean-forward="true" selection-start-line="75" selection-start-column="14" selection-end-line="75" selection-end-column="14" />
               <folding>
                 <element signature="e#223#232#0" expanded="true" />
               </folding>
@@ -39,27 +41,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/csv/诗人.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2346">
-              <caret line="102" selection-start-line="102" selection-end-line="102" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dic/mdt.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="732" column="26" selection-start-line="732" selection-start-column="23" selection-end-line="732" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sp1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
+            <state relative-caret-position="352">
               <caret line="70" column="52" lean-forward="true" selection-start-line="63" selection-start-column="4" selection-end-line="70" selection-end-column="52" />
               <folding>
                 <element signature="e#119#128#0" expanded="true" />
@@ -101,6 +85,7 @@
       <find>谭用之</find>
       <find>zset</find>
       <find>杜丽娘梦写丹青记</find>
+      <find>五十五</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -126,8 +111,8 @@
         <option value="$PROJECT_DIR$/csv/词牌名.csv" />
         <option value="$PROJECT_DIR$/csv/诗人.csv" />
         <option value="$PROJECT_DIR$/csv/牡丹亭_词牌名.csv" />
-        <option value="$PROJECT_DIR$/tp_csv.py" />
         <option value="$PROJECT_DIR$/GS.py" />
+        <option value="$PROJECT_DIR$/tp_csv.py" />
       </list>
     </option>
   </component>
@@ -142,7 +127,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -164,6 +148,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -299,10 +284,10 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.GS" />
-      <item itemvalue="Python.sp1" />
-      <item itemvalue="Python.demo" />
       <item itemvalue="Python.FMM" />
+      <item itemvalue="Python.GS" />
+      <item itemvalue="Python.demo" />
+      <item itemvalue="Python.sp1" />
       <item itemvalue="Python.tp_csv" />
     </list>
     <recent_temporary>
@@ -346,7 +331,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3283859" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32096475" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.71057516" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39146566" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -427,11 +412,36 @@
           <line>57</line>
           <option name="timeStamp" value="39" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/GS.py</url>
+          <line>84</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>rets5</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>rets4[s:e+1]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>rets4[s:e]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>rets4[i][1]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>zset</expression-string>
         <language-id>Python</language-id>
@@ -459,38 +469,6 @@ print(ret)</expression-string>
         <expression-string>line = &quot;［汉宫春］杜宝黄［w］堂[12]，生丽娘小姐，爱踏春阳。感梦书生折柳，竟为情伤。写真留记[13]，葬梅花道院凄凉。三年上，有梦梅柳子，于此赴高唐[14]。果尔回生定配，赴临安取试，寇起淮扬。正把杜公围困，小姐惊惶。教柳郎行探，反遭疑激恼平章[15]。风流况[16]，施行正苦[17]，报中状元郎。&quot;
 print(line)
 ret = re.findall(r&quot;[\[]+(?)+[\]]&quot;, line)
-print(ret)</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>line = &quot;［汉宫春］杜宝黄［w］堂[12]，生丽娘小姐，爱踏春阳。感梦书生折柳，竟为情伤。写真留记[13]，葬梅花道院凄凉。三年上，有梦梅柳子，于此赴高唐[14]。果尔回生定配，赴临安取试，寇起淮扬。正把杜公围困，小姐惊惶。教柳郎行探，反遭疑激恼平章[15]。风流况[16]，施行正苦[17]，报中状元郎。&quot;
-print(line)
-ret = re.findall(r&quot;[\[]+(\D+?)+[\]]&quot;, line)
-print(ret)</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>line = &quot;［汉宫春］杜宝黄［w］堂[12]，生丽娘小姐，爱踏春阳。感梦书生折柳，竟为情伤。写真留记[13]，葬梅花道院凄凉。三年上，有梦梅柳子，于此赴高唐[14]。果尔回生定配，赴临安取试，寇起淮扬。正把杜公围困，小姐惊惶。教柳郎行探，反遭疑激恼平章[15]。风流况[16]，施行正苦[17]，报中状元郎。&quot;
-print(line)
-ret = re.findall(r&quot;[\[]+(\D?)+[\]]&quot;, line)
-print(ret)</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>line = &quot;［汉宫春］杜宝黄［w］堂[12]，生丽娘小姐，爱踏春阳。感梦书生折柳，竟为情伤。写真留记[13]，葬梅花道院凄凉。三年上，有梦梅柳子，于此赴高唐[14]。果尔回生定配，赴临安取试，寇起淮扬。正把杜公围困，小姐惊惶。教柳郎行探，反遭疑激恼平章[15]。风流况[16]，施行正苦[17]，报中状元郎。&quot;
-print(line)
-ret = re.findall(r&quot;[\[]+(\d+)+[\]]&quot;, line)
-print(ret)</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>line = &quot;［汉宫春］杜宝黄［w］堂[12]，生丽娘小姐，爱踏春阳。感梦书生折柳，竟为情伤。写真留记[13]，葬梅花道院凄凉。三年上，有梦梅柳子，于此赴高唐[14]。果尔回生定配，赴临安取试，寇起淮扬。正把杜公围困，小姐惊惶。教柳郎行探，反遭疑激恼平章[15]。风流况[16]，施行正苦[17]，报中状元郎。&quot;
-print(line)
-ret = re.findall(r&quot;[\[]+(\d*)+[\]]&quot;, line)
 print(ret)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
@@ -608,23 +586,6 @@ print(ret)</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sp1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="70" column="52" lean-forward="true" selection-start-line="63" selection-start-column="4" selection-end-line="70" selection-end-column="52" />
-          <folding>
-            <element signature="e#119#128#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dic/mdt.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="732" column="26" selection-start-line="732" selection-start-column="23" selection-end-line="732" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/csv/牡丹亭_词牌名.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -632,24 +593,61 @@ print(ret)</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/csv/牡丹亭_作者.csv">
+    <entry file="file://$PROJECT_DIR$/csv/牡丹亭_作者.csv" />
+    <entry file="file://$PROJECT_DIR$/dic/mdt.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2323">
-          <caret line="101" column="7" lean-forward="true" selection-start-line="101" selection-start-column="7" selection-end-line="101" selection-end-column="7" />
+        <state relative-caret-position="588">
+          <caret line="1294" column="5" selection-start-line="1294" selection-start-column="2" selection-end-line="1294" selection-end-column="5" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/csv/牡丹亭_诗人.csv" />
+    <entry file="file://$PROJECT_DIR$/csv/牡丹亭_诗人0.csv" />
     <entry file="file://$PROJECT_DIR$/csv/诗人.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2346">
+        <state relative-caret-position="240">
           <caret line="102" selection-start-line="102" selection-end-line="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv/牡丹亭_诗人1.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv/牡丹亭_诗人2.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv/牡丹亭_诗人3.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv/牡丹亭_诗人4.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv/牡丹亭_诗人5.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv/牡丹亭_诗人6.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv/牡丹亭_诗人7.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv/牡丹亭_诗人8.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="70" column="52" lean-forward="true" selection-start-line="63" selection-start-column="4" selection-end-line="70" selection-end-column="52" />
+          <folding>
+            <element signature="e#119#128#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GS.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="69" column="49" lean-forward="true" selection-start-line="69" selection-start-column="49" selection-end-line="69" selection-end-column="49" />
+        <state relative-caret-position="167">
+          <caret line="75" column="14" lean-forward="true" selection-start-line="75" selection-start-column="14" selection-end-line="75" selection-end-column="14" />
           <folding>
             <element signature="e#223#232#0" expanded="true" />
           </folding>
@@ -658,8 +656,8 @@ print(ret)</expression-string>
     </entry>
     <entry file="file://$PROJECT_DIR$/tp_csv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="137" lean-forward="true" selection-start-line="137" selection-end-line="137" />
+        <state relative-caret-position="35">
+          <caret line="135" column="25" selection-start-line="135" selection-start-column="25" selection-end-line="135" selection-end-column="25" />
           <folding>
             <element signature="e#144#175#0" expanded="true" />
           </folding>

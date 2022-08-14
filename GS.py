@@ -64,9 +64,22 @@ if __name__ == '__main__':
     rets4 = []
     i = 0
     for z in zz:
-        z_set = set(z)
-        for cp in z_set:
-            pro_num = z.count(cp)
-            rets4.append([rets0[i], pro_num, cp])
+        for index, cp in enumerate(z):
+            rets4.append([rets0[i], index + 1, cp])
         i += 1
-    write_csv('牡丹亭_诗人', ['章节', '出现次数', '诗人'], rets4)
+    # 排序
+    rets4.sort(key=lambda x: x[1], reverse=False)
+    print(rets4)
+    # 切割
+    s, e = 0, 0
+    f = 1
+    rets5 = []
+    for i, r in enumerate(rets4):
+        if rets4[i][1] != f:
+            rets5.append(rets4[s:e])
+            s = e
+            f += 1
+        e += 1
+    rets5.append(rets4[s:len(rets4)])
+    for i, ret_t in enumerate(rets5):
+        write_csv(f'牡丹亭_诗人_{i+1}', ['章节', f'第{i+1}次', '诗人'], ret_t)
