@@ -129,4 +129,9 @@ if __name__ == "__main__":
     node("牡丹亭")
     # 实体间的关系
     relation("牡丹亭_词牌名")
+
+    # 1
+    node("诗人")
+    # 实体间的关系
+    relation("牡丹亭_诗人")
     app.close()
