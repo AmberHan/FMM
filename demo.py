@@ -4,7 +4,11 @@
 # !@Author : DongHan Yang
 # !@File   : demo.py
 import re
-line = "［汉宫春］杜宝黄［w］堂[W]，生【丽娘】小姐，爱踏春阳。感梦书生折柳，竟为情伤。写真留记[13]，葬梅花道院凄凉。三年上，有梦梅柳子，于此赴高唐[14]。果尔回生定配，赴临安取试，寇起淮扬。正把杜公围困，小姐惊惶。教柳郎行探，反遭疑激恼平章[15]。风流况[16]，施行正苦[17]，报中状元郎。"
+
+line = "第一出[1] 你好[2]"
 print(line)
-ret = re.findall(r"[【]+(\w+)+[】]", line)
-print(ret)
+s = line.split()
+if s[0].split('[')[0][0] == "第" and s[0].split('[')[0][-1] == "出":
+    print([s[0].split('[')[0], s[1].split('[')[0]])
+# ret = re.split(r"[\w]", line)
+# print(ret)

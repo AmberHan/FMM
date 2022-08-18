@@ -27,9 +27,12 @@ def pp(chooseList):
                 continue
             if line.count("注释"):
                 start = False
-            if line.split()[0][0] == "第" and line.split()[0][-1] == "出":
+            # print(line)
+            # if line.split()[0][0] == "第" and line.split()[0][-1] == "出":
+            s = line.split()
+            if s[0].split('[')[0] != '' and s[0].split('[')[0][0] == "第" and s[0].split('[')[0][-1] == "出":
                 start = True
-                rets0.append(line.split())
+                rets0.append([s[0].split('[')[0], s[1].split('[')[0]])
                 rets0[-1].append('牡丹亭')
                 rets.append([])
             if start:
@@ -43,21 +46,23 @@ def pp(chooseList):
                 rets[- 1].extend(line1)
                 rets1 |= set(line1)
     print("牡丹亭章节：", rets0)
-    print("词牌名：", rets1)
-    print("关系：", rets)
+    print("曲牌名：", rets1)
     return rets0, rets1, rets
 
 
 if __name__ == '__main__':
-    txt_path = 'dic/汤显祖牡丹亭.txt'
+    set_name = "牡丹亭"
+    txt_path = f'dic/汤显祖{set_name}.txt'
     rets0, rets1, rets = pp(["【", "】", "[", "]"])
     # 牡丹亭
-    write_csv('牡丹亭', ['章节', '标题', '戏曲名'], rets0)
+    node1_name = f'{set_name}出'
+    write_csv(node1_name, ['章节', '标题', '戏曲名'], rets0)
     # 词牌名
     rets3 = []
     for r in rets1:
         rets3.append([r])
-    write_csv('词牌名', ['词牌名'], rets3)
+    node2_name = f'{set_name}曲牌名'
+    write_csv(node2_name, ['曲牌名'], rets3)
     # 关系
     rets4 = []
     i = 0
@@ -68,4 +73,5 @@ if __name__ == '__main__':
         for cp in cps_set:
             pro_num = cps.count(cp)
             rets4.append([zj, pro_num, cp])
-    write_csv('牡丹亭_词牌名', ['章节', '次数', '词牌名'], rets4)
+    print("关系：", rets4)
+    write_csv(f'{node1_name}_{node2_name}', ['章节', '次数', '词牌名'], rets4)
