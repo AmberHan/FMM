@@ -74,4 +74,4 @@ if __name__ == '__main__':
             pro_num = cps.count(cp)
             rets4.append([zj, pro_num, cp])
     print("关系：", rets4)
-    write_csv(f'{node1_name}_{node2_name}', ['章节', '次数', '词牌名'], rets4)
+    write_csv(f'{node1_name}_{node2_name}', ['章节', '次数', '曲牌名'], rets4)

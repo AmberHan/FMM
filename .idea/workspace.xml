@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46c557ae-57b8-4656-a069-c26aee772f9d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/tp_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/tp_csv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sp1.py" beforeDir="false" afterPath="$PROJECT_DIR$/sp1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tp_csv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="133" column="15" lean-forward="true" selection-start-line="133" selection-start-column="15" selection-end-line="137" selection-end-column="17" />
+            <state relative-caret-position="2921">
+              <caret line="131" selection-start-line="131" selection-end-line="131" />
               <folding>
                 <element signature="e#144#175#0" expanded="true" />
               </folding>
@@ -24,11 +25,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sp1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="53" column="20" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
+            <state relative-caret-position="282">
+              <caret line="74" column="43" lean-forward="true" selection-start-line="74" selection-start-column="43" selection-end-line="74" selection-end-column="43" />
               <folding>
                 <element signature="e#119#128#0" expanded="true" />
               </folding>
@@ -101,6 +102,7 @@
       <find>杜丽娘梦写丹青记</find>
       <find>五十五</find>
       <find>re.</find>
+      <find>pp</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -125,9 +127,9 @@
         <option value="$PROJECT_DIR$/csv/牡丹亭_词牌名.csv" />
         <option value="$PROJECT_DIR$/GS.py" />
         <option value="$PROJECT_DIR$/demo.py" />
-        <option value="$PROJECT_DIR$/sp1.py" />
         <option value="$PROJECT_DIR$/dic/汤显祖牡丹亭.txt" />
         <option value="$PROJECT_DIR$/tp_csv.py" />
+        <option value="$PROJECT_DIR$/sp1.py" />
       </list>
     </option>
   </component>
@@ -149,6 +151,11 @@
             <path>
               <item name="FMM" type="b2602c69:ProjectViewProjectNode" />
               <item name="FMM" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FMM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FMM" type="462c0819:PsiDirectoryNode" />
+              <item name="csv" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FMM" type="b2602c69:ProjectViewProjectNode" />
@@ -341,7 +348,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3283859" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.39703155" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2541744" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.45454547" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -587,6 +594,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tp_csv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2921">
+          <caret line="131" selection-start-line="131" selection-end-line="131" />
+          <folding>
+            <element signature="e#144#175#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dic/汤显祖牡丹亭.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -613,20 +630,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sp1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="53" column="20" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
+        <state relative-caret-position="282">
+          <caret line="74" column="43" lean-forward="true" selection-start-line="74" selection-start-column="43" selection-end-line="74" selection-end-column="43" />
           <folding>
             <element signature="e#119#128#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tp_csv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="133" column="15" lean-forward="true" selection-start-line="133" selection-start-column="15" selection-end-line="137" selection-end-column="17" />
-          <folding>
-            <element signature="e#144#175#0" expanded="true" />
           </folding>
         </state>
       </provider>
