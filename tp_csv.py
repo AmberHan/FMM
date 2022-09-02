@@ -131,8 +131,8 @@ if __name__ == "__main__":
     relation("牡丹亭_词牌名")
 
     # 实体诗人
-    node("诗人")
-    # 实体间的关系
-    for i in range(1, 9):
-        relation(f"牡丹亭_诗人_{i}")
-    app.close()
+    # node("诗人")
+    # # 实体间的关系
+    # for i in range(1, 9):
+    #     relation(f"牡丹亭_诗人_{i}")
+    # app.close()
