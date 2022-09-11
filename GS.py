@@ -62,14 +62,18 @@ if __name__ == '__main__':
     write_csv('诗人', ['诗人'], rets3)
     # 牡丹亭_作者
     rets4 = []
+    rets5 = []  # 全部4个
     i = 0
     for z in zz:
         for index, cp in enumerate(z):
             rets4.append([rets0[i], index + 1, cp])
+            rets5.append([rets0[i], index + 1, cp, gs[i][index]])
         i += 1
     # 排序
     rets4.sort(key=lambda x: x[1], reverse=False)
     print(rets4)
+    print(rets5)
+    write_csv(f'牡丹亭_下场诗', ['章节', f'次序', '诗人', '诗句'], rets5)
     # 切割
     s, e = 0, 0
     f = 1
@@ -82,4 +86,5 @@ if __name__ == '__main__':
         e += 1
     rets5.append(rets4[s:len(rets4)])
     for i, ret_t in enumerate(rets5):
-        write_csv(f'牡丹亭_诗人_{i+1}', ['章节', f'第{i+1}次', '诗人'], ret_t)
+        write_csv(f'牡丹亭_诗人_{i + 1}', ['章节', f'第{i + 1}次', '诗人'], ret_t)
+
