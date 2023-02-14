@@ -43,7 +43,7 @@ class App:
 
 # 处理csv的head
 def pd_head(file):
-    with open(file, 'r', encoding='utf-8') as fr:
+    with open(file, 'r', encoding='utf_8_sig') as fr:
         reader = csv.DictReader(fr)
         headers = reader.fieldnames
         fn = file.split('/')[-1].split('.')[0]

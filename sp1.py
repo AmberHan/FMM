@@ -9,7 +9,7 @@ import csv
 
 def write_csv(filename, header, datas):
     fn = f'csv/{filename}.csv'
-    with open(fn, 'w', encoding='utf-8', newline='') as f:
+    with open(fn, 'w', encoding='utf_8_sig', newline='') as f:
         writer = csv.writer(f)
         writer.writerow(header)
         writer.writerows(datas)
@@ -20,7 +20,7 @@ def pp(chooseList,set_name):
     rets = []  # 关系
     rets0 = []  # 戏曲名牡丹亭
     rets1 = set()  # 词牌名
-    with open(txt_path, 'r', encoding="utf-8") as f:
+    with open(txt_path, 'r', encoding="utf_8_sig") as f:
         for line in f:
             line = line.strip()
             if not line:

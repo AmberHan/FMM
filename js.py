@@ -3,7 +3,6 @@
 # !@Time   : 2022/8/14 19:42
 # !@Author : DongHan Yang
 # !@File   : js.py
-import re
 import csv
 
 
@@ -40,7 +39,7 @@ def getQuPaiList():
                         isQQ = "否" if quPai != "前腔" else "是"
                         quPai = quPai if quPai != "前腔" else pre
                         seq += 1
-                        quJs = [0] if quJs==[] else quJs
+                        quJs = [0] if quJs == [] else quJs
                         rets0 = [chu, quPai, isQQ, seq, quJs]
                         pre = quPai
                         # 如果取消分列；取消下面三行代码
@@ -59,7 +58,7 @@ def getQuPaiJs(line, nextIndex):
     totalNum = 0
     for index in range(nextIndex[0] + 1, len(line)):
         word = line[index]
-        if word in ["“", "”", "《", "》"," "]:
+        if word in ["“", "”", "《", "》", " "]:
             continue
         if word in ["【", "[", "［"] and index + 1 < len(line) and isChinese(line[index + 1]):
             nextIndex[0] = index
@@ -103,8 +102,11 @@ def getQupai(line, nextIndex, sFlag, eFlag):
 def isChinese(uchar):
     if uchar >= u'\u4e00' and uchar <= u'\u9fa5':
         return True
-    else:
+    elif (uchar >= u'\u0020' and uchar <= u'\u007f') or (u'\u2000' and uchar <= u'\u206f') \
+            or (uchar >= u'\u3000' and uchar <= u'\u303f') or (u'\uff00' and uchar <= u'\uffef'):
         return False
+    else:
+        return True
 
 
 if __name__ == '__main__':

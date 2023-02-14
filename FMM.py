@@ -12,7 +12,7 @@ class leftMax(object):
         self.dictionary = set()  # 定义字典
         self.maximum = 5  # 最大匹配长度
         self.pre = None  # 记录上一次【】词牌
-        with open(dict_path, 'r', encoding="utf-8") as f:
+        with open(dict_path, 'r', encoding="utf_8_sig") as f:
             for line in f:
                 line = line.strip()
                 if not line:
@@ -58,7 +58,7 @@ class rightMax(object):
         self.dictionary = set()  # 定义字典
         self.maximum = 3  # 最大匹配长度
 
-        with open(dict_path, 'r', encoding="utf-8") as f:
+        with open(dict_path, 'r', encoding="utf_8_sig") as f:
             for line in f:
                 line = line.strip()
                 if not line:
@@ -127,7 +127,7 @@ def doubleMax(text, path):
 
 # 获取字典
 def get_txt(words):
-    with open(words, 'r', encoding='gbk', ) as f:
+    with open(words, 'r', encoding='gbk') as f:
         try:
             file_content = f.read().split()
         finally:
@@ -146,7 +146,7 @@ def get_txt(words):
 
 def write_csv(filename, header, datas):
     fn = f'csv/{filename}.csv'
-    with open(fn, 'w', encoding='utf-8', newline='') as f:
+    with open(fn, 'w', encoding='utf_8_sig', newline='') as f:
         writer = csv.writer(f)
         writer.writerow(header)
         writer.writerows(datas)
@@ -160,7 +160,7 @@ if __name__ == '__main__':
     rets = []  # 关系
     rets0 = []  # 戏曲名牡丹亭
     rets1 = set()  # 词牌名
-    with open(txt_path, 'r', encoding="utf-8") as f:
+    with open(txt_path, 'r', encoding="utf_8_sig") as f:
         for line in f:
             line = line.strip()
             if not line:
