@@ -70,9 +70,13 @@ if __name__ == '__main__':
     for cps in rets:
         zj = rets0[i][0]
         i += 1
-        cps_set = set(cps)
-        for cp in cps_set:
+        #cps_set = set(cps)
+        #for cp in cps_set:
+        cps_set = []
+        for cp in cps:
             pro_num = cps.count(cp)
-            rets4.append([zj, pro_num, cp])
+            if cp not in cps_set:
+                cps_set.append(cp)
+                rets4.append([zj, pro_num, cp])
     print("出_关系：", rets4)
     write_csv(f'{node1_name}_{node2_name}', ['章节', '次数', '曲牌名'], rets4)

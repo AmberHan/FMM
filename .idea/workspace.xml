@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46c557ae-57b8-4656-a069-c26aee772f9d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/FMM.py" beforeDir="false" afterPath="$PROJECT_DIR$/FMM.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GS.py" beforeDir="false" afterPath="$PROJECT_DIR$/GS.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv/句式.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/句式.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js.py" beforeDir="false" afterPath="$PROJECT_DIR$/js.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv/牡丹亭出.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/牡丹亭出.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv/牡丹亭出_牡丹亭曲牌名.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/牡丹亭出_牡丹亭曲牌名.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv/牡丹亭曲牌名.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/牡丹亭曲牌名.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sp1.py" beforeDir="false" afterPath="$PROJECT_DIR$/sp1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tp_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/tp_csv.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sp1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="13" />
+            <state relative-caret-position="173">
+              <caret line="75" column="22" lean-forward="true" selection-start-line="75" selection-start-column="22" selection-end-line="75" selection-end-column="22" />
               <folding>
                 <element signature="e#119#128#0" expanded="true" />
               </folding>
@@ -32,8 +30,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tp_csv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="43" column="12" lean-forward="true" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
+            <state relative-caret-position="819">
+              <caret line="43" column="12" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
               <folding>
                 <element signature="e#144#175#0" expanded="true" />
               </folding>
@@ -41,7 +39,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="84">
@@ -62,14 +60,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FMM.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
+            <state relative-caret-position="273">
               <caret line="14" column="17" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="17" />
               <folding>
                 <element signature="e#102#111#0" expanded="true" />
-                <element signature="e#1711#2973#0" />
-                <element signature="e#3014#3868#0" />
-                <element signature="e#3902#4096#0" />
-                <element signature="e#4099#4121#0" />
               </folding>
             </state>
           </provider>
@@ -78,7 +72,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GS.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
+            <state relative-caret-position="567">
               <caret line="28" column="13" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="13" />
               <folding>
                 <element signature="e#223#232#0" expanded="true" />
@@ -89,9 +83,7 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/csv/句式.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-10129" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -148,9 +140,9 @@
       <find>杜丽娘梦写丹青记</find>
       <find>五十五</find>
       <find>re.</find>
-      <find>pp</find>
       <find>isC</find>
       <find>open</find>
+      <find>pp</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -177,8 +169,8 @@
         <option value="$PROJECT_DIR$/js.py" />
         <option value="$PROJECT_DIR$/FMM.py" />
         <option value="$PROJECT_DIR$/GS.py" />
-        <option value="$PROJECT_DIR$/sp1.py" />
         <option value="$PROJECT_DIR$/tp_csv.py" />
+        <option value="$PROJECT_DIR$/sp1.py" />
       </list>
     </option>
   </component>
@@ -199,6 +191,11 @@
             <path>
               <item name="FMM" type="b2602c69:ProjectViewProjectNode" />
               <item name="FMM" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FMM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FMM" type="462c0819:PsiDirectoryNode" />
+              <item name="csv" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -237,7 +234,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.js">
+  <component name="RunManager" selected="Python.sp1">
     <configuration name="GS" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="NPL" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -352,8 +349,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.js" />
         <item itemvalue="Python.sp1" />
+        <item itemvalue="Python.js" />
         <item itemvalue="Python.GS" />
         <item itemvalue="Python.demo" />
         <item itemvalue="Python.tp_csv" />
@@ -386,12 +383,12 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1223193" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1223193" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3283859" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.23376623" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.41372913" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39517626" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -641,6 +638,43 @@
     <entry file="file://$PROJECT_DIR$/csv/牡丹亭_诗人_1.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/tp_csv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="819">
+          <caret line="43" column="12" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
+          <folding>
+            <element signature="e#144#175#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FMM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="17" />
+          <folding>
+            <element signature="e#102#111#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="13" />
+          <folding>
+            <element signature="e#223#232#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/csv/牡丹亭_诗人_2.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
@@ -654,66 +688,23 @@
     <entry file="file://$PROJECT_DIR$/csv/牡丹亭_诗人_8.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/csv/句式.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10129" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FMM.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="17" />
-          <folding>
-            <element signature="e#102#111#0" expanded="true" />
-            <element signature="e#1711#2973#0" />
-            <element signature="e#3014#3868#0" />
-            <element signature="e#3902#4096#0" />
-            <element signature="e#4099#4121#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GS.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="13" />
-          <folding>
-            <element signature="e#223#232#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sp1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="13" />
-          <folding>
-            <element signature="e#119#128#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tp_csv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="43" column="12" lean-forward="true" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
-          <folding>
-            <element signature="e#144#175#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="10" column="42" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv/句式.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="75" column="22" lean-forward="true" selection-start-line="75" selection-start-column="22" selection-end-line="75" selection-end-column="22" />
+          <folding>
+            <element signature="e#119#128#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
