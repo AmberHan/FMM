@@ -35,12 +35,13 @@ def getQuPaiList():
                 nextIndex = [0]
                 while (nextIndex[0] != -1):
                     quPai = getQupai(line, nextIndex, ["［", "[", "【"], ["］", "]", "】"])
-                    quJs = getQuPaiJs(line, nextIndex)
                     if quPai != "":
+                        quJs = getQuPaiJs(line, nextIndex)
+                        isQQ = "否" if quPai != "前腔" else "是"
                         quPai = quPai if quPai != "前腔" else pre
                         seq += 1
                         quJs = [0] if quJs==[] else quJs
-                        rets0 = [chu, quPai, "否" if quPai != "前腔" else "是", seq, quJs]
+                        rets0 = [chu, quPai, isQQ, seq, quJs]
                         pre = quPai
                         # 如果取消分列；取消下面三行代码
                         for ret in quJs:
@@ -58,7 +59,7 @@ def getQuPaiJs(line, nextIndex):
     totalNum = 0
     for index in range(nextIndex[0] + 1, len(line)):
         word = line[index]
-        if word in ["“", "”", "《", "》"]:
+        if word in ["“", "”", "《", "》"," "]:
             continue
         if word in ["【", "[", "［"] and index + 1 < len(line) and isChinese(line[index + 1]):
             nextIndex[0] = index
