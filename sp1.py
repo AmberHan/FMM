@@ -45,8 +45,9 @@ def pp(chooseList,set_name):
                     line1[0] = pre
                 rets[- 1].extend(line1)
                 rets1 |= set(line1)
-    print(f"{set_name}章节：", rets0)
-    print("曲牌名：", rets1)
+    print(f"{set_name}出_章节：", rets0)
+    print("所有_曲牌名：", rets1)
+    print("出_词牌:", rets)
     return rets0, rets1, rets
 
 
@@ -73,5 +74,5 @@ if __name__ == '__main__':
         for cp in cps_set:
             pro_num = cps.count(cp)
             rets4.append([zj, pro_num, cp])
-    print("关系：", rets4)
+    print("出_关系：", rets4)
     write_csv(f'{node1_name}_{node2_name}', ['章节', '次数', '曲牌名'], rets4)
