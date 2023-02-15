@@ -35,13 +35,17 @@ def getQuPaiList():
                 while (nextIndex[0] != -1):
                     quPai = getQupai(line, nextIndex, ["［", "[", "【"], ["］", "]", "】"])
                     if quPai != "":
+                        isHan = False  # 判断前腔中文
+                        if line[nextIndex[0]] == '】':
+                            isHan = True
                         quJs = getQuPaiJs(line, nextIndex)
                         isQQ = "否" if quPai != "前腔" else "是"
                         quPai = quPai if quPai != "前腔" else pre
                         seq += 1
                         quJs = [0] if quJs == [] else quJs
                         rets0 = [chu, quPai, isQQ, seq, quJs]
-                        pre = quPai
+                        if isHan:
+                            pre = quPai
                         # 如果取消分列；取消下面三行代码
                         for ret in quJs:
                             rets0.append(ret)

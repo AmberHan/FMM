@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46c557ae-57b8-4656-a069-c26aee772f9d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/csv/牡丹亭出.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/牡丹亭出.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv/牡丹亭出_牡丹亭曲牌名.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/牡丹亭出_牡丹亭曲牌名.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv/牡丹亭曲牌名.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/牡丹亭曲牌名.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sp1.py" beforeDir="false" afterPath="$PROJECT_DIR$/sp1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv/句式.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/句式.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js.py" beforeDir="false" afterPath="$PROJECT_DIR$/js.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sp1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="75" column="22" lean-forward="true" selection-start-line="75" selection-start-column="22" selection-end-line="75" selection-end-column="22" />
+            <state relative-caret-position="217">
+              <caret line="75" column="22" selection-start-line="75" selection-start-column="22" selection-end-line="75" selection-end-column="22" />
               <folding>
                 <element signature="e#119#128#0" expanded="true" />
               </folding>
@@ -39,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="10" column="42" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="42" />
+            <state relative-caret-position="-244">
+              <caret line="44" column="58" lean-forward="true" selection-start-line="44" selection-start-column="58" selection-end-line="44" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -166,11 +164,11 @@
         <option value="$PROJECT_DIR$/demo.py" />
         <option value="$PROJECT_DIR$/dic/汤显祖牡丹亭.txt" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/js.py" />
         <option value="$PROJECT_DIR$/FMM.py" />
         <option value="$PROJECT_DIR$/GS.py" />
         <option value="$PROJECT_DIR$/tp_csv.py" />
         <option value="$PROJECT_DIR$/sp1.py" />
+        <option value="$PROJECT_DIR$/js.py" />
       </list>
     </option>
   </component>
@@ -185,6 +183,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -192,16 +191,10 @@
               <item name="FMM" type="b2602c69:ProjectViewProjectNode" />
               <item name="FMM" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="FMM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FMM" type="462c0819:PsiDirectoryNode" />
-              <item name="csv" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -234,7 +227,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.sp1">
+  <component name="RunManager" selected="Python.js">
     <configuration name="GS" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="NPL" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -349,8 +342,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.sp1" />
         <item itemvalue="Python.js" />
+        <item itemvalue="Python.sp1" />
         <item itemvalue="Python.GS" />
         <item itemvalue="Python.demo" />
         <item itemvalue="Python.tp_csv" />
@@ -388,7 +381,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3283859" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.41372913" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2541744" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39517626" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -466,29 +459,49 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/js.py</url>
-          <line>31</line>
-          <option name="timeStamp" value="58" />
+          <line>42</line>
+          <option name="timeStamp" value="69" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/js.py</url>
-          <line>36</line>
-          <option name="timeStamp" value="64" />
+          <line>39</line>
+          <option name="timeStamp" value="70" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/js.py</url>
-          <line>70</line>
-          <option name="timeStamp" value="65" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/js.py</url>
-          <line>106</line>
-          <option name="timeStamp" value="68" />
+          <line>38</line>
+          <option name="timeStamp" value="71" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>line[nextIndex[0]] == '】'</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>line[nextIndex[0]] is '】'</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>line[nextIndex[0]]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>line[nextIndex[0]] is &quot;】&quot;</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>line[nextIndex[0] + 1]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>(uchar &gt;= u'\u0020' and uchar &lt;= u'\u007f') or (u'\u2000' and uchar &lt;= u'\u206f') \
             or (uchar &gt;= u'\u3000' and uchar &lt;= u'\u303f') or (u'\uff00' and uchar &lt;= u'\uffef')</expression-string>
@@ -512,26 +525,6 @@
       </expression>
       <expression>
         <expression-string>zhconv.issimp('𣨎你啊')</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>zhconv.issimp('𣨎你')</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>zhconv.issimp('𣨎')</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>zhconv.issimp('𣨎 ')</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>zhconv.issimp('關')</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
@@ -638,6 +631,16 @@
     <entry file="file://$PROJECT_DIR$/csv/牡丹亭_诗人_1.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/sp1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="75" column="22" selection-start-line="75" selection-start-column="22" selection-end-line="75" selection-end-column="22" />
+          <folding>
+            <element signature="e#119#128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tp_csv.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="819">
@@ -675,6 +678,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/csv/句式.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/csv/牡丹亭_诗人_2.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
@@ -690,21 +696,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="10" column="42" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/csv/句式.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sp1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="75" column="22" lean-forward="true" selection-start-line="75" selection-start-column="22" selection-end-line="75" selection-end-column="22" />
-          <folding>
-            <element signature="e#119#128#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-244">
+          <caret line="44" column="58" lean-forward="true" selection-start-line="44" selection-start-column="58" selection-end-line="44" selection-end-column="58" />
         </state>
       </provider>
     </entry>
