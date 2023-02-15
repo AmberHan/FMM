@@ -117,4 +117,4 @@ if __name__ == '__main__':
     set_name = "牡丹亭"
     txt_path = f'dic/汤显祖{set_name}.txt'
     rets = getQuPaiList()
-    writeCsv(f'句式', ['出', '曲牌', '是否前腔', '顺序', '句式'], rets)
+    writeCsv(f'{set_name}句式', ['出', '曲牌', '是否前腔', '顺序', '句式'], rets)
