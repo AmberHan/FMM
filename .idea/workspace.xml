@@ -2,11 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46c557ae-57b8-4656-a069-c26aee772f9d" name="Default Changelist" comment="edit">
-      <change afterPath="$PROJECT_DIR$/dic/汤显祖南柯记.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dic/汤显祖紫钗记.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dic/汤显祖邯郸记.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv/牡丹亭_下场诗.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/牡丹亭_下场诗.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv/牡丹亭_诗人_1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/牡丹亭_诗人_1.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv/牡丹亭_诗人_2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/牡丹亭_诗人_2.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv/牡丹亭_诗人_3.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/牡丹亭_诗人_3.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv/牡丹亭_诗人_4.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/牡丹亭_诗人_4.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv/牡丹亭_诗人_5.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/牡丹亭_诗人_5.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv/牡丹亭_诗人_6.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/牡丹亭_诗人_6.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv/牡丹亭_诗人_7.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/牡丹亭_诗人_7.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv/牡丹亭_诗人_8.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/牡丹亭_诗人_8.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/csv/牡丹亭曲牌名.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/牡丹亭曲牌名.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv/诗人.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/诗人.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖南柯记.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dic/汤显祖南柯记.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖牡丹亭.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dic/汤显祖牡丹亭.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖紫钗记.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dic/汤显祖紫钗记.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖邯郸记.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dic/汤显祖邯郸记.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,22 +28,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js1.py">
+        <entry file="file://$PROJECT_DIR$/sp1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-454">
-              <caret line="66" column="40" selection-start-line="66" selection-start-column="36" selection-end-line="66" selection-end-column="40" />
+            <state relative-caret-position="233">
+              <caret line="69" column="20" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="20" />
               <folding>
-                <element signature="e#2025#2527#0" />
+                <element signature="e#119#128#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dic/汤显祖牡丹亭.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="10" column="7" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -48,7 +50,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>薛能</find>
       <find>煞</find>
       <find>driver</find>
       <find>tx</find>
@@ -74,10 +75,11 @@
       <find>暗度</find>
       <find>getLineColors</find>
       <find>云器</find>
-      <find>print</find>
       <find>qIndex</find>
       <find>汉宫春</find>
       <find>梦写丹青</find>
+      <find>print</find>
+      <find>数声啼鸟上花枝</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -107,25 +109,26 @@
         <option value="$PROJECT_DIR$/tp_csv.py" />
         <option value="$PROJECT_DIR$/sp1.py" />
         <option value="$PROJECT_DIR$/js.py" />
+        <option value="$PROJECT_DIR$/dic/color.txt" />
+        <option value="$PROJECT_DIR$/js1.py" />
         <option value="$PROJECT_DIR$/dic/汤显祖南柯记.txt" />
         <option value="$PROJECT_DIR$/dic/汤显祖紫钗记.txt" />
         <option value="$PROJECT_DIR$/dic/汤显祖邯郸记.txt" />
-        <option value="$PROJECT_DIR$/dic/color.txt" />
-        <option value="$PROJECT_DIR$/js1.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1865" />
-    <option name="y" value="56" />
+    <option name="y" value="55" />
     <option name="width" value="1940" />
-    <option name="height" value="924" />
+    <option name="height" value="925" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -142,7 +145,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -175,7 +177,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.js1">
+  <component name="RunManager" selected="Python.GS">
     <configuration name="GS" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="NPL" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -290,10 +292,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.GS" />
+        <item itemvalue="Python.sp1" />
         <item itemvalue="Python.js1" />
         <item itemvalue="Python.js" />
-        <item itemvalue="Python.sp1" />
-        <item itemvalue="Python.GS" />
         <item itemvalue="Python.demo" />
       </list>
     </recent_temporary>
@@ -332,12 +334,12 @@
     <frame x="1913" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12219287" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12219287" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3283859" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35337242" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35337242" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3856305" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -452,6 +454,21 @@
           <line>52</line>
           <option name="timeStamp" value="86" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/GS.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/GS.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/GS.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -531,13 +548,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/csv/牡丹亭_词牌名.csv" />
-    <entry file="file://$PROJECT_DIR$/dic/mdt.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2534">
-          <caret line="1294" column="5" selection-start-line="1294" selection-start-column="2" selection-end-line="1294" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/csv/牡丹亭出.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -555,16 +565,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="315">
-            <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/csv/牡丹亭_诗人_7.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -575,6 +575,34 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/csv/句式.csv" />
+    <entry file="file://$PROJECT_DIR$/csv/牡丹亭_诗人_2.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv/牡丹亭_诗人_3.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv/牡丹亭_诗人_8.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp2.py" />
+    <entry file="file://$PROJECT_DIR$/dic/color.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="69" selection-start-column="69" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="66" column="40" selection-start-line="66" selection-start-column="36" selection-end-line="66" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/demo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -592,32 +620,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GS.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="13" />
-          <folding>
-            <element signature="e#223#232#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/csv/牡丹亭_诗人_2.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="12" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/csv/牡丹亭_诗人_3.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/csv/牡丹亭_诗人_8.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/tp_csv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
+        <state relative-caret-position="477">
           <caret line="43" column="12" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
           <folding>
             <element signature="e#144#175#0" expanded="true" />
@@ -625,59 +630,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sp2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="81" column="27" selection-start-line="81" selection-start-column="17" selection-end-line="81" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sp1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-183">
-          <caret line="54" column="19" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="19" />
-          <folding>
-            <element signature="e#119#128#0" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="315">
+            <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9">
+        <state relative-caret-position="97">
           <caret line="103" selection-start-line="103" selection-end-line="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+          <folding>
+            <element signature="e#223#232#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dic/mdt.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2961">
+          <caret line="102" selection-start-line="102" selection-end-line="104" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dic/汤显祖邯郸记.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dic/汤显祖紫钗记.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dic/汤显祖牡丹亭.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dic/汤显祖南柯记.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/dic/汤显祖紫钗记.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dic/汤显祖邯郸记.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dic/color.txt">
+    <entry file="file://$PROJECT_DIR$/sp1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="69" selection-start-column="69" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dic/汤显祖牡丹亭.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-454">
-          <caret line="66" column="40" selection-start-line="66" selection-start-column="36" selection-end-line="66" selection-end-column="40" />
+        <state relative-caret-position="233">
+          <caret line="69" column="20" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="20" />
           <folding>
-            <element signature="e#2025#2527#0" />
+            <element signature="e#119#128#0" expanded="true" />
           </folding>
         </state>
       </provider>
