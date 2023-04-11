@@ -4,6 +4,7 @@
 # !@Author : DongHan Yang
 # !@File   : js.py
 import csv
+import re
 
 
 def writeCsv(filename, header, datas):
@@ -14,8 +15,12 @@ def writeCsv(filename, header, datas):
         writer.writerows(datas)
 
 
+startXC = False
+
+
 def getQuPaiList():
     start, isFirst = False, False
+    global startXC
     index, qIndex = 0, 0  # 序号（无颜色为0）、曲牌序号（递增）
     rets = []  # 输出csv列表
     rets0 = []  # '序号','剧本','出','曲牌','是否前腔','曲牌序号'
@@ -25,11 +30,14 @@ def getQuPaiList():
             line = line.strip()
             if not line:
                 continue
+            if line.count("下场诗"):
+                startXC = True
             if line.count("注释"):
                 start = False
             s = line.split()
             if s[0].split('[')[0] != '' and s[0].split('[')[0][0] == "第" and s[0].split('[')[0][-1] == "出":
                 start = True
+                startXC = False
                 chu = s[0].split('[')[0]  # get 出
             elif start:
                 nextIndexRec = [0]
@@ -54,19 +62,27 @@ def getQuPaiList():
                             index -= 1
                             rets0[0] = 0
                             rets.append(rets0)
-                            print([rets0])
+                            print(rets0)
                         else:
                             for ret in ret3:
-                                rets.append([rets0 + ret])
-                                print([rets0 + ret])
+                                rets.append(rets0 + ret)
+                                print(rets0 + ret)
                         rets0 = [index, set_name, chu, quPai, isQQ, qIndex]
                         ret3 = []
                         if fist:
                             fist = False
                     elif len(ret1) != 0:
                         ret3.extend(ret1)
-    print("Csv:", rets)
-    return rets
+    # sorted_lst = sorted(rets, key=lambda x: (x[5], x[-1]))
+    sorted_data = sorted(rets, key=lambda x: (x[5], x[-1]))
+    results = []
+    for d in sorted_data:
+        if len(d) > 6:
+            results.append(d[:-1])
+        else:
+            results.append(d)
+    print(results)
+    return results
 
 
 # 输入：line：一行内容; nextIndex: 起始位; sFlag: 起始标志; eFlag: 中止标志
@@ -103,41 +119,105 @@ def getLineColor(line):
     # 定义颜色列表和结果列表
     colors = readColor()
     result = []
+    isCount = 0
     # 遍历字符串中的每个字符
-    i = 0
-    while i < len(line):
-        # 检查当前字符是否是颜色列表中的一个颜色的第一个字符
-        if line[i] in colors:
-            # 遍历颜色列表，检查当前字符是否是某个颜色的第一个字符
-            for j in range(len(colors)):
-                if line[i] == colors[j]:
-                    # 如果是，将颜色添加到结果列表中
-                    color = colors[j]
-                    # 查找颜色前两个汉字
-                    start_index = max(0, i - 2)
-                    start_i = i
-                    while start_i > start_index:
-                        if start_i - 1 > 0 and line[start_i - 1] in ['，', '。', '！', '？', '[', ']', '）', '　']:
-                            break
-                        start_i -= 1
-                    # result.append(line[start_i:i])
-                    # 查找颜色后两个汉字
-                    end_index = min(len(line), i + 3)
-                    end_i = i
-                    while end_i < end_index:
-                        if end_i + 1 < len(line) and line[end_i + 1] in ['，', '。', '！', '？', '[', ']', '）', '　']:
-                            break
-                        end_i += 1
-                    # result.append([color, line[start_i:i], line[i + 1:end_i]])
-                    result.append([color, line[start_i:end_i]])
-                    # 更新i的值，继续查找下一个字符
-                    i = end_i
-        # 如果当前字符不是颜色列表中的颜色，则继续查找下一个字符
-        i += 1
+    for i, color in enumerate(colors):
+        pattern = re.compile(color)
+        match = pattern.search(line)
+        while match:
+            start, end = match.span()
+            # print(start, end)
+            mask = ((1 << (end - start + 1)) - 1) << start  # 构造掩码，将从 start 到 end 位置为 1
+            if bin(mask & isCount).count('1'):
+                isCount |= mask
+                match = pattern.search(line, end)
+                continue
+            isCount |= mask
+            start_index = max(0, start - 2)
+            start_i = start
+            while start_i > start_index:
+                if start_i - 1 > 0 and line[start_i - 1] in ['，', '。', '！', '？', '[', ']', '）', '　', '］', '［', '【',
+                                                             '】']:
+                    break
+                start_i -= 1
+            # result.append(line[start_i:i])
+            # 查找颜色后两个汉字
+            end_index = min(len(line), end + 3)
+            end_i = end
+            while end_i < end_index:
+                if end_i + 1 < len(line) and line[end_i + 1] in ['，', '。', '！', '？', '[', ']', '）', '　', '］', '［', '【',
+                                                                 '】']:
+                    break
+                end_i += 1
+            # result.append([color, line[start_i:i], line[i + 1:end_i]])
+            raw_data = line[start_i:end_i]
+            type = brackets(line, raw_data)
+            result.append([color, raw_data, type, start])
+
+            match = pattern.search(line, end)
+
+    # i = 0
+    # while i < len(line):
+    #     # 检查当前字符是否是颜色列表中的一个颜色的第一个字符
+    #     if line[i] in colors:
+    #         # 遍历颜色列表，检查当前字符是否是某个颜色的第一个字符
+    #         for j in range(len(colors)):
+    #             if line[i] == colors[j]:
+    #                 # 如果是，将颜色添加到结果列表中
+    #                 color = colors[j]
+    #                 # 查找颜色前两个汉字
+    #                 start_index = max(0, i - 2)
+    #                 start_i = i
+    #                 while start_i > start_index:
+    #                     if start_i - 1 > 0 and line[start_i - 1] in ['，', '。', '！', '？', '[', ']', '）', '　']:
+    #                         break
+    #                     start_i -= 1
+    #                 # result.append(line[start_i:i])
+    #                 # 查找颜色后两个汉字
+    #                 end_index = min(len(line), i + 3)
+    #                 end_i = i
+    #                 while end_i < end_index:
+    #                     if end_i + 1 < len(line) and line[end_i + 1] in ['，', '。', '！', '？', '[', ']', '）', '　']:
+    #                         break
+    #                     end_i += 1
+    #                 # result.append([color, line[start_i:i], line[i + 1:end_i]])
+    #                 result.append([color, line[start_i:end_i]])
+    #                 # 更新i的值，继续查找下一个字符
+    #                 i = end_i
+    #     # 如果当前字符不是颜色列表中的颜色，则继续查找下一个字符
+    #     i += 1
     # 返回结果列表
     # if len(result) != 0:
     #     print(result)
     return result
+
+
+def brackets(line, data):
+    if startXC:
+        return '下场诗'
+    if is_in_brackets(line, data, ['【', '】']) or is_in_brackets(line, data, ['［', '］']):
+        return '曲牌'
+    if is_in_brackets(line, data, ['（', '）']):
+        return '括号'
+    return '正文'
+
+
+def is_in_brackets(line, data, flags):
+    """
+    判断字符 data 是否在括号内。
+    """
+    stack = []
+    begin = flags[0]
+    end = flags[1]
+    for i, ch in enumerate(line):
+        if ch == begin:
+            stack.append(i)
+        elif ch == end:
+            if stack:
+                left_bracket_index = stack.pop()
+                if line[left_bracket_index + 1:i].find(data) != -1:
+                    return True
+    return False
 
 
 # 得到颜色字典
@@ -167,4 +247,4 @@ if __name__ == '__main__':
     txt_path = f'dic/汤显祖{set_name}.txt'
     rets = getQuPaiList()
     # '出', '曲牌', '是否前腔', '顺序', '句式'
-    # writeCsv(f'{set_name}句式', ['序号','剧本','出','曲牌','是否前腔','曲牌序号','色彩','色彩前两字','色彩后两字','色彩类型'], rets)
+    writeCsv(f'{set_name}色彩', ['序号', '剧本', '出', '曲牌', '是否前腔', '曲牌序号', '色彩', '色彩全字', '色彩类型'], rets)
