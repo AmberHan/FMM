@@ -136,14 +136,14 @@ def getLineColor(line):
             start_index = max(0, start - 2)
             start_i = start
             while start_i > start_index:
-                if start_i - 1 > 0 and line[start_i - 1] in ['，', '。', '！', '？', '[', ']', '）', '　', '］', '［', '【',
-                                                             '】']:
+                if start_i - 1 >= 0 and line[start_i - 1] in ['，', '。', '！', '？', '[', ']', '）', '　', '］', '［', '【',
+                                                              '】']:
                     break
                 start_i -= 1
             # result.append(line[start_i:i])
             # 查找颜色后两个汉字
-            end_index = min(len(line), end + 3)
-            end_i = end
+            end_index = min(len(line), end + 2)
+            end_i = end - 1
             while end_i < end_index:
                 if end_i + 1 < len(line) and line[end_i + 1] in ['，', '。', '！', '？', '[', ']', '）', '　', '］', '［', '【',
                                                                  '】']:
@@ -153,42 +153,7 @@ def getLineColor(line):
             raw_data = line[start_i:end_i]
             type = brackets(line, raw_data)
             result.append([color, raw_data, type, start])
-
             match = pattern.search(line, end)
-
-    # i = 0
-    # while i < len(line):
-    #     # 检查当前字符是否是颜色列表中的一个颜色的第一个字符
-    #     if line[i] in colors:
-    #         # 遍历颜色列表，检查当前字符是否是某个颜色的第一个字符
-    #         for j in range(len(colors)):
-    #             if line[i] == colors[j]:
-    #                 # 如果是，将颜色添加到结果列表中
-    #                 color = colors[j]
-    #                 # 查找颜色前两个汉字
-    #                 start_index = max(0, i - 2)
-    #                 start_i = i
-    #                 while start_i > start_index:
-    #                     if start_i - 1 > 0 and line[start_i - 1] in ['，', '。', '！', '？', '[', ']', '）', '　']:
-    #                         break
-    #                     start_i -= 1
-    #                 # result.append(line[start_i:i])
-    #                 # 查找颜色后两个汉字
-    #                 end_index = min(len(line), i + 3)
-    #                 end_i = i
-    #                 while end_i < end_index:
-    #                     if end_i + 1 < len(line) and line[end_i + 1] in ['，', '。', '！', '？', '[', ']', '）', '　']:
-    #                         break
-    #                     end_i += 1
-    #                 # result.append([color, line[start_i:i], line[i + 1:end_i]])
-    #                 result.append([color, line[start_i:end_i]])
-    #                 # 更新i的值，继续查找下一个字符
-    #                 i = end_i
-    #     # 如果当前字符不是颜色列表中的颜色，则继续查找下一个字符
-    #     i += 1
-    # 返回结果列表
-    # if len(result) != 0:
-    #     print(result)
     return result
 
 
@@ -241,7 +206,8 @@ def isChinese(uchar):
         return True
 
 
-set_name = "牡丹亭"
+# 牡丹亭、紫钗记、南柯记、邯郸记
+set_name = "邯郸记"
 filename = "./dic/color.txt"
 if __name__ == '__main__':
     txt_path = f'dic/汤显祖{set_name}.txt'
