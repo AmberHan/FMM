@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46c557ae-57b8-4656-a069-c26aee772f9d" name="Default Changelist" comment="edit">
+      <change afterPath="$PROJECT_DIR$/dic/.idea/dic.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv/南柯记色彩.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/南柯记色彩.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/csv/牡丹亭色彩.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/牡丹亭色彩.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dic/汤显祖牡丹亭.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dic/汤显祖牡丹亭.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv/紫钗记色彩.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/紫钗记色彩.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv/邯郸记色彩.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/邯郸记色彩.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js1.py" beforeDir="false" afterPath="$PROJECT_DIR$/js1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="209" column="16" lean-forward="true" selection-start-line="209" selection-start-column="16" selection-end-line="209" selection-end-column="16" />
+            <state relative-caret-position="57">
+              <caret line="210" column="28" lean-forward="true" selection-start-line="210" selection-start-column="28" selection-end-line="210" selection-end-column="28" />
               <folding>
                 <element signature="e#121#131#0" expanded="true" />
               </folding>
@@ -27,21 +30,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dic/color.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="19" selection-start-column="17" selection-end-column="19" />
-            </state>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/csv/牡丹亭色彩.csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="-3150" />
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dic/汤显祖牡丹亭.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-            </state>
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
           </provider>
         </entry>
       </file>
@@ -56,14 +51,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>谭用之</find>
-      <find>zset</find>
-      <find>杜丽娘梦写丹青记</find>
-      <find>五十五</find>
-      <find>re.</find>
-      <find>isC</find>
-      <find>open</find>
-      <find>pp</find>
       <find>暗度</find>
       <find>云器</find>
       <find>qIndex</find>
@@ -86,6 +73,14 @@
       <find>brackets</find>
       <find>【金索挂梧</find>
       <find>ret3</find>
+      <find>点成黄金一</find>
+      <find>此乃点石为金，</find>
+      <find>猛 金钗十</find>
+      <find>绿眼</find>
+      <find>生穿红穿绿</find>
+      <find>黄金</find>
+      <find>绿</find>
+      <find>红穿</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -96,7 +91,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/dic/mdt.txt" />
-        <option value="$PROJECT_DIR$/1.py" />
         <option value="$PROJECT_DIR$/example.py" />
         <option value="$PROJECT_DIR$/csv/movies.csv" />
         <option value="$PROJECT_DIR$/dic/cpm.txt" />
@@ -116,9 +110,11 @@
         <option value="$PROJECT_DIR$/js.py" />
         <option value="$PROJECT_DIR$/dic/汤显祖南柯记.txt" />
         <option value="$PROJECT_DIR$/dic/汤显祖紫钗记.txt" />
-        <option value="$PROJECT_DIR$/dic/汤显祖邯郸记.txt" />
         <option value="$PROJECT_DIR$/dic/color.txt" />
         <option value="$PROJECT_DIR$/dic/汤显祖牡丹亭.txt" />
+        <option value="$PROJECT_DIR$/1.py" />
+        <option value="$PROJECT_DIR$/dic/汤显祖邯郸记.txt" />
+        <option value="$PROJECT_DIR$/csv/邯郸记色彩.csv" />
         <option value="$PROJECT_DIR$/js1.py" />
       </list>
     </option>
@@ -134,7 +130,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -151,6 +146,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -184,6 +180,27 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.js1">
+    <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="NPL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\python\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="GS" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="NPL" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -197,27 +214,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GS.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="NPL" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -291,18 +287,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.GS" />
-      <item itemvalue="Python.demo" />
       <item itemvalue="Python.js" />
       <item itemvalue="Python.sp1" />
       <item itemvalue="Python.js1" />
+      <item itemvalue="Python.1" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.js1" />
+        <item itemvalue="Python.1" />
         <item itemvalue="Python.GS" />
         <item itemvalue="Python.sp1" />
         <item itemvalue="Python.js" />
-        <item itemvalue="Python.demo" />
       </list>
     </recent_temporary>
   </component>
@@ -338,19 +334,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14694202" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3283859" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.45825604" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30797774" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36734694" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3283859" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3283859" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.39888683" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.1335807" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32096475" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.16697589" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -479,6 +476,11 @@
           <line>147</line>
           <option name="timeStamp" value="106" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/js1.py</url>
+          <line>145</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -537,9 +539,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/csv/xqm.csv" />
-    <entry file="file://$PROJECT_DIR$/csv/movies.csv" />
-    <entry file="file://$PROJECT_DIR$/csv/movie_person.csv" />
     <entry file="file://$PROJECT_DIR$/csv/`戏曲名_词牌名`.csv" />
     <entry file="file://$PROJECT_DIR$/example.py" />
     <entry file="file://$PROJECT_DIR$/csv/戏曲名.csv" />
@@ -664,9 +663,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dic/汤显祖邯郸记.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/dic/汤显祖紫钗记.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -683,20 +679,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/csv/牡丹亭色彩.csv">
+    <entry file="file://D:/python/Lib/site-packages/requests/api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="185" column="20" selection-start-line="185" selection-start-column="20" selection-end-line="185" selection-end-column="20" />
+        <state relative-caret-position="277">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dic/color.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" selection-start-column="17" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/1.py" />
     <entry file="file://$PROJECT_DIR$/dic/汤显祖牡丹亭.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -704,14 +694,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dic/color.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" lean-forward="true" selection-start-column="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv/邯郸记色彩.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="118">
+          <caret line="488" column="31" lean-forward="true" selection-start-line="488" selection-start-column="31" selection-end-line="488" selection-end-column="31" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dic/汤显祖邯郸记.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="209" column="16" lean-forward="true" selection-start-line="209" selection-start-column="16" selection-end-line="209" selection-end-column="16" />
+        <state relative-caret-position="57">
+          <caret line="210" column="28" lean-forward="true" selection-start-line="210" selection-start-column="28" selection-end-line="210" selection-end-column="28" />
           <folding>
             <element signature="e#121#131#0" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv/牡丹亭色彩.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-3150" />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="185" column="20" selection-start-line="185" selection-start-column="20" selection-end-line="185" selection-end-column="20" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
   </component>

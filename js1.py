@@ -127,7 +127,7 @@ def getLineColor(line):
         while match:
             start, end = match.span()
             # print(start, end)
-            mask = ((1 << (end - start + 1)) - 1) << start  # 构造掩码，将从 start 到 end 位置为 1
+            mask = ((1 << (end - start)) - 1) << start  # 构造掩码，将从 start 到 end 位置为 1
             if bin(mask & isCount).count('1'):
                 isCount |= mask
                 match = pattern.search(line, end)
@@ -137,20 +137,20 @@ def getLineColor(line):
             start_i = start
             while start_i > start_index:
                 if start_i - 1 >= 0 and line[start_i - 1] in ['，', '。', '！', '？', '[', ']', '）', '　', '］', '［', '【',
-                                                              '】']:
+                                                              '】','﹐']:
                     break
                 start_i -= 1
             # result.append(line[start_i:i])
             # 查找颜色后两个汉字
-            end_index = min(len(line), end + 2)
+            end_index = min(len(line), end + 1)
             end_i = end - 1
             while end_i < end_index:
                 if end_i + 1 < len(line) and line[end_i + 1] in ['，', '。', '！', '？', '[', ']', '）', '　', '］', '［', '【',
-                                                                 '】']:
+                                                                 '】','﹐']:
                     break
                 end_i += 1
             # result.append([color, line[start_i:i], line[i + 1:end_i]])
-            raw_data = line[start_i:end_i]
+            raw_data = line[start_i:end_i+1]
             type = brackets(line, raw_data)
             result.append([color, raw_data, type, start])
             match = pattern.search(line, end)
@@ -207,7 +207,7 @@ def isChinese(uchar):
 
 
 # 牡丹亭、紫钗记、南柯记、邯郸记
-set_name = "邯郸记"
+set_name = "牡丹亭"
 filename = "./dic/color.txt"
 if __name__ == '__main__':
     txt_path = f'dic/汤显祖{set_name}.txt'
