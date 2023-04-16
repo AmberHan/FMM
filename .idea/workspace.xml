@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46c557ae-57b8-4656-a069-c26aee772f9d" name="Default Changelist" comment="edit">
-      <change afterPath="$PROJECT_DIR$/dic/.idea/dic.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/csv/南柯记色彩.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/南柯记色彩.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/csv/牡丹亭色彩.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/牡丹亭色彩.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/csv/紫钗记色彩.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/紫钗记色彩.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/csv/邯郸记色彩.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/邯郸记色彩.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖牡丹亭.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dic/汤显祖牡丹亭.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js1.py" beforeDir="false" afterPath="$PROJECT_DIR$/js1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="210" column="28" lean-forward="true" selection-start-line="210" selection-start-column="28" selection-end-line="210" selection-end-column="28" />
+            <state relative-caret-position="173">
+              <caret line="223" column="16" lean-forward="true" selection-start-line="223" selection-start-column="16" selection-end-line="223" selection-end-column="16" />
               <folding>
                 <element signature="e#121#131#0" expanded="true" />
               </folding>
@@ -30,13 +29,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/csv/牡丹亭色彩.csv">
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="-3150" />
-          </provider>
           <provider editor-type-id="csv-table-editor">
             <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+          </provider>
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="-16605">
+              <caret line="1" column="23" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dic/汤显祖牡丹亭.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -51,14 +61,10 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>暗度</find>
-      <find>云器</find>
-      <find>qIndex</find>
       <find>汉宫春</find>
       <find>梦写丹青</find>
       <find>数声啼鸟上花枝</find>
       <find>红烛迎</find>
-      <find>getLineColor</find>
       <find>牡丹亭上三</find>
       <find>李白</find>
       <find>getLineColors</find>
@@ -81,6 +87,10 @@
       <find>黄金</find>
       <find>绿</find>
       <find>红穿</find>
+      <find>getLineColor</find>
+      <find>err</find>
+      <find>get_field_with</find>
+      <find>er</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -111,10 +121,10 @@
         <option value="$PROJECT_DIR$/dic/汤显祖南柯记.txt" />
         <option value="$PROJECT_DIR$/dic/汤显祖紫钗记.txt" />
         <option value="$PROJECT_DIR$/dic/color.txt" />
-        <option value="$PROJECT_DIR$/dic/汤显祖牡丹亭.txt" />
         <option value="$PROJECT_DIR$/1.py" />
         <option value="$PROJECT_DIR$/dic/汤显祖邯郸记.txt" />
         <option value="$PROJECT_DIR$/csv/邯郸记色彩.csv" />
+        <option value="$PROJECT_DIR$/dic/汤显祖牡丹亭.txt" />
         <option value="$PROJECT_DIR$/js1.py" />
       </list>
     </option>
@@ -130,6 +140,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -142,11 +153,15 @@
               <item name="FMM" type="462c0819:PsiDirectoryNode" />
               <item name="csv" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="FMM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FMM" type="462c0819:PsiDirectoryNode" />
+              <item name="dic" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -243,7 +258,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="js1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="js1" type="PythonConfigurationType" factoryName="Python">
       <module name="NPL" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -286,15 +301,14 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.js1" />
       <item itemvalue="Python.GS" />
       <item itemvalue="Python.js" />
       <item itemvalue="Python.sp1" />
-      <item itemvalue="Python.js1" />
       <item itemvalue="Python.1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.js1" />
         <item itemvalue="Python.1" />
         <item itemvalue="Python.GS" />
         <item itemvalue="Python.sp1" />
@@ -334,7 +348,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14694202" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -453,17 +466,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/js1.py</url>
-          <line>173</line>
-          <option name="timeStamp" value="98" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/js1.py</url>
-          <line>184</line>
+          <line>187</line>
           <option name="timeStamp" value="99" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/js1.py</url>
-          <line>178</line>
+          <line>181</line>
           <option name="timeStamp" value="101" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -481,58 +489,63 @@
           <line>145</line>
           <option name="timeStamp" value="107" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/js1.py</url>
+          <line>195</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
       <expression>
+        <expression-string>re.split(r'[，。！？）］［【】﹐]', text)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>re.split(r'[，[]）］［【】﹐]', text)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>re.split(r'[［【】﹐]', text)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>re.split(r'[，。！？[]）］［【】﹐]', text)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>re.split(r'[，.]', text)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>re.split(r'[，。！？[]）　］［【】﹐]', text)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>re.split('，', text)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>re.split(',', text)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>re.split(pattern, text)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>line[end_i]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>line[end_i + 1]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>line[end_i ]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>bin(mask &amp; isCount).count('1')</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>bin(mask &amp; isCount)</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>str(mask &amp; isCount)</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>bin(96),bin(224)</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>str(mask &amp; isCount).count('1')</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>bin(96)</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>result</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
@@ -687,13 +700,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/1.py" />
-    <entry file="file://$PROJECT_DIR$/dic/汤显祖牡丹亭.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dic/color.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -702,36 +708,30 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/csv/邯郸记色彩.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="118">
           <caret line="488" column="31" lean-forward="true" selection-start-line="488" selection-start-column="31" selection-end-line="488" selection-end-column="31" />
         </state>
       </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dic/汤显祖邯郸记.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
+        <state relative-caret-position="84">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js1.py">
+    <entry file="file://$PROJECT_DIR$/dic/汤显祖牡丹亭.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="210" column="28" lean-forward="true" selection-start-line="210" selection-start-column="28" selection-end-line="210" selection-end-column="28" />
-          <folding>
-            <element signature="e#121#131#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="21">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/csv/牡丹亭色彩.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-3150" />
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="483">
           <caret line="185" column="20" selection-start-line="185" selection-start-column="20" selection-end-line="185" selection-end-column="20" />
@@ -739,6 +739,21 @@
       </provider>
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-16605">
+          <caret line="1" column="23" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="223" column="16" lean-forward="true" selection-start-line="223" selection-start-column="16" selection-end-line="223" selection-end-column="16" />
+          <folding>
+            <element signature="e#121#131#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>

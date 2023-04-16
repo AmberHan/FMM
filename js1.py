@@ -137,7 +137,7 @@ def getLineColor(line):
             start_i = start
             while start_i > start_index:
                 if start_i - 1 >= 0 and line[start_i - 1] in ['，', '。', '！', '？', '[', ']', '）', '　', '］', '［', '【',
-                                                              '】','﹐']:
+                                                              '】', '﹐']:
                     break
                 start_i -= 1
             # result.append(line[start_i:i])
@@ -146,13 +146,16 @@ def getLineColor(line):
             end_i = end - 1
             while end_i < end_index:
                 if end_i + 1 < len(line) and line[end_i + 1] in ['，', '。', '！', '？', '[', ']', '）', '　', '］', '［', '【',
-                                                                 '】','﹐']:
+                                                                 '】', '﹐']:
                     break
                 end_i += 1
             # result.append([color, line[start_i:i], line[i + 1:end_i]])
-            raw_data = line[start_i:end_i+1]
+            raw_data = line[start_i:end_i + 1]
             type = brackets(line, raw_data)
-            result.append([color, raw_data, type, start])
+            all_data = get_field_with(line, raw_data)
+            if all_data is None:
+                print("error")
+            result.append([color, raw_data, all_data, type, start])
             match = pattern.search(line, end)
     return result
 
@@ -185,6 +188,17 @@ def is_in_brackets(line, data, flags):
     return False
 
 
+pattern = r'[，。！？\[\]）］［【】﹐]'
+
+
+def get_field_with(text, a):
+    fields = re.split(pattern, text)
+    for field in fields:
+        if a in field:
+            return field.strip()
+    return None
+
+
 # 得到颜色字典
 def readColor():
     with open(filename, 'r', encoding='utf_8_sig') as f:
@@ -207,7 +221,7 @@ def isChinese(uchar):
 
 
 # 牡丹亭、紫钗记、南柯记、邯郸记
-set_name = "牡丹亭"
+set_name = "邯郸记"
 filename = "./dic/color.txt"
 if __name__ == '__main__':
     txt_path = f'dic/汤显祖{set_name}.txt'
