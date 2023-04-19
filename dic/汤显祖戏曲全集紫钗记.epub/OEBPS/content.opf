@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns:opf="http://www.idpf.org/2007/opf" unique-identifier="bookid" xmlns="http://www.idpf.org/2007/opf" version="2.0">
+   <metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+        <dc:identifier id="bookid">urn:uuid:273fd756-62f2-4858-8d67-99e08f24bba9</dc:identifier>
+        <dc:contributor opf:file-as="CompanyName" opf:role="own">Epubor</dc:contributor>
+        <dc:contributor opf:file-as="PersonalName" opf:role="own">Ultimate</dc:contributor>
+        <dc:contributor opf:file-as="eCore" opf:role="bkp">eCore v0.9.12.751 [ http://www.epubor.com/ecore.html ]</dc:contributor>
+        <dc:contributor opf:file-as="SiteURL" opf:role="own">http://www.epubor.com</dc:contributor>
+        <meta name="cover" content="cover-image"/>
+        <dc:creator opf:file-as="汤显祖" opf:role="aut">汤显祖</dc:creator>
+        <dc:date opf:event="publication">2015-03-01</dc:date>
+        <dc:identifier opf:scheme="ASIN">B00XHRSBSG</dc:identifier>
+        <dc:language>ZH-CN</dc:language>
+        <dc:publisher>百花洲文艺出版社</dc:publisher>
+        <dc:title>汤显祖戏曲全集:紫钗记</dc:title>
+   </metadata>
+   <manifest>
+        <item href="text00000.html" id="id_1" media-type="application/xhtml+xml"/>
+        <item href="text00001.html" id="id_2" media-type="application/xhtml+xml"/>
+        <item href="text00002.html" id="id_3" media-type="application/xhtml+xml"/>
+        <item href="text00003.html" id="id_4" media-type="application/xhtml+xml"/>
+        <item href="text00004.html" id="id_5" media-type="application/xhtml+xml"/>
+        <item href="text00005.html" id="id_6" media-type="application/xhtml+xml"/>
+        <item href="text00006.html" id="id_7" media-type="application/xhtml+xml"/>
+        <item href="text00007.html" id="id_8" media-type="application/xhtml+xml"/>
+        <item href="text00008.html" id="id_9" media-type="application/xhtml+xml"/>
+        <item href="text00009.html" id="id_10" media-type="application/xhtml+xml"/>
+        <item href="text00010.html" id="id_11" media-type="application/xhtml+xml"/>
+        <item href="text00011.html" id="id_12" media-type="application/xhtml+xml"/>
+        <item href="text00012.html" id="id_13" media-type="application/xhtml+xml"/>
+        <item href="text00013.html" id="id_14" media-type="application/xhtml+xml"/>
+        <item href="text00014.html" id="id_15" media-type="application/xhtml+xml"/>
+        <item href="text00015.html" id="id_16" media-type="application/xhtml+xml"/>
+        <item href="text00016.html" id="id_17" media-type="application/xhtml+xml"/>
+        <item href="text00017.html" id="id_18" media-type="application/xhtml+xml"/>
+        <item href="text00018.html" id="id_19" media-type="application/xhtml+xml"/>
+        <item href="text00019.html" id="id_20" media-type="application/xhtml+xml"/>
+        <item href="text00020.html" id="id_21" media-type="application/xhtml+xml"/>
+        <item href="text00021.html" id="id_22" media-type="application/xhtml+xml"/>
+        <item href="text00022.html" id="id_23" media-type="application/xhtml+xml"/>
+        <item href="text00023.html" id="id_24" media-type="application/xhtml+xml"/>
+        <item href="text00024.html" id="id_25" media-type="application/xhtml+xml"/>
+        <item href="text00025.html" id="id_26" media-type="application/xhtml+xml"/>
+        <item href="text00026.html" id="id_27" media-type="application/xhtml+xml"/>
+        <item href="text00027.html" id="id_28" media-type="application/xhtml+xml"/>
+        <item href="text00028.html" id="id_29" media-type="application/xhtml+xml"/>
+        <item href="text00029.html" id="id_30" media-type="application/xhtml+xml"/>
+        <item href="text00030.html" id="id_31" media-type="application/xhtml+xml"/>
+        <item href="text00031.html" id="id_32" media-type="application/xhtml+xml"/>
+        <item href="text00032.html" id="id_33" media-type="application/xhtml+xml"/>
+        <item href="text00033.html" id="id_34" media-type="application/xhtml+xml"/>
+        <item href="text00034.html" id="id_35" media-type="application/xhtml+xml"/>
+        <item href="text00035.html" id="id_36" media-type="application/xhtml+xml"/>
+        <item href="text00036.html" id="id_37" media-type="application/xhtml+xml"/>
+        <item href="text00037.html" id="id_38" media-type="application/xhtml+xml"/>
+        <item href="text00038.html" id="id_39" media-type="application/xhtml+xml"/>
+        <item href="text00039.html" id="id_40" media-type="application/xhtml+xml"/>
+        <item href="text00040.html" id="id_41" media-type="application/xhtml+xml"/>
+        <item href="text00041.html" id="id_42" media-type="application/xhtml+xml"/>
+        <item href="text00042.html" id="id_43" media-type="application/xhtml+xml"/>
+        <item href="text00043.html" id="id_44" media-type="application/xhtml+xml"/>
+        <item href="text00044.html" id="id_45" media-type="application/xhtml+xml"/>
+        <item href="text00045.html" id="id_46" media-type="application/xhtml+xml"/>
+        <item href="text00046.html" id="id_47" media-type="application/xhtml+xml"/>
+        <item href="text00047.html" id="id_48" media-type="application/xhtml+xml"/>
+        <item href="text00048.html" id="id_49" media-type="application/xhtml+xml"/>
+        <item href="text00049.html" id="id_50" media-type="application/xhtml+xml"/>
+        <item href="text00050.html" id="id_51" media-type="application/xhtml+xml"/>
+        <item href="text00051.html" id="id_52" media-type="application/xhtml+xml"/>
+        <item href="text00052.html" id="id_53" media-type="application/xhtml+xml"/>
+        <item href="text00053.html" id="id_54" media-type="application/xhtml+xml"/>
+        <item href="text00054.html" id="id_55" media-type="application/xhtml+xml"/>
+        <item href="text00055.html" id="id_56" media-type="application/xhtml+xml"/>
+        <item href="text00056.html" id="id_57" media-type="application/xhtml+xml"/>
+        <item href="text00057.html" id="id_58" media-type="application/xhtml+xml"/>
+        <item href="text00058.html" id="id_59" media-type="application/xhtml+xml"/>
+        <item href="text00059.html" id="id_60" media-type="application/xhtml+xml"/>
+        <item href="text00060.html" id="id_61" media-type="application/xhtml+xml"/>
+        <item href="text00061.html" id="id_62" media-type="application/xhtml+xml"/>
+        <item href="text00062.html" id="id_63" media-type="application/xhtml+xml"/>
+        <item href="text00063.html" id="id_64" media-type="application/xhtml+xml"/>
+        <item href="text00064.html" id="id_65" media-type="application/xhtml+xml"/>
+        <item href="Image00000.jpg" id="id_66" media-type="image/jpeg"/>
+        <item href="Image00001.jpg" id="id_67" media-type="image/jpeg"/>
+        <item href="Image00002.jpg" id="id_68" media-type="image/jpeg"/>
+        <item href="Image00003.jpg" id="id_69" media-type="image/jpeg"/>
+        <item href="Image00004.jpg" id="id_70" media-type="image/jpeg"/>
+        <item href="Image00005.jpg" id="id_71" media-type="image/jpeg"/>
+        <item href="Image00006.jpg" id="id_72" media-type="image/jpeg"/>
+        <item href="Image00007.jpg" id="id_73" media-type="image/jpeg"/>
+        <item href="Image00008.jpg" id="id_74" media-type="image/jpeg"/>
+        <item href="Image00009.jpg" id="id_75" media-type="image/jpeg"/>
+        <item href="Image00010.jpg" id="id_76" media-type="image/jpeg"/>
+        <item href="Image00011.jpg" id="id_77" media-type="image/jpeg"/>
+        <item href="Image00012.jpg" id="id_78" media-type="image/jpeg"/>
+        <item href="Image00013.jpg" id="id_79" media-type="image/jpeg"/>
+        <item href="Image00014.jpg" id="id_80" media-type="image/jpeg"/>
+        <item href="Image00015.jpg" id="id_81" media-type="image/jpeg"/>
+        <item href="Image00016.jpg" id="id_82" media-type="image/jpeg"/>
+        <item href="Image00017.jpg" id="id_83" media-type="image/jpeg"/>
+        <item href="Image00018.jpg" id="id_84" media-type="image/jpeg"/>
+        <item href="Image00019.jpg" id="id_85" media-type="image/jpeg"/>
+        <item href="Image00020.jpg" id="id_86" media-type="image/jpeg"/>
+        <item href="Image00021.jpg" id="id_87" media-type="image/jpeg"/>
+        <item href="Image00022.jpg" id="id_88" media-type="image/jpeg"/>
+        <item href="Image00023.jpg" id="id_89" media-type="image/jpeg"/>
+        <item href="Image00024.jpg" id="id_90" media-type="image/jpeg"/>
+        <item href="Image00025.jpg" id="id_91" media-type="image/jpeg"/>
+        <item href="Image00026.jpg" id="id_92" media-type="image/jpeg"/>
+        <item href="Image00027.jpg" id="id_93" media-type="image/jpeg"/>
+        <item href="Image00028.jpg" id="id_94" media-type="image/jpeg"/>
+        <item href="Image00029.jpg" id="id_95" media-type="image/jpeg"/>
+        <item href="Image00030.jpg" id="id_96" media-type="image/jpeg"/>
+        <item href="Image00031.jpg" id="id_97" media-type="image/jpeg"/>
+        <item href="Image00032.jpg" id="id_98" media-type="image/jpeg"/>
+        <item href="Image00033.jpg" id="id_99" media-type="image/jpeg"/>
+        <item href="Image00034.jpg" id="id_100" media-type="image/jpeg"/>
+        <item href="Image00035.jpg" id="id_101" media-type="image/jpeg"/>
+        <item href="Image00036.jpg" id="id_102" media-type="image/jpeg"/>
+        <item href="Image00037.jpg" id="id_103" media-type="image/jpeg"/>
+        <item href="Image00038.jpg" id="id_104" media-type="image/jpeg"/>
+        <item href="Image00039.jpg" id="id_105" media-type="image/jpeg"/>
+        <item href="Image00040.jpg" id="id_106" media-type="image/jpeg"/>
+        <item href="Image00041.jpg" id="id_107" media-type="image/jpeg"/>
+        <item href="Image00042.jpg" id="id_108" media-type="image/jpeg"/>
+        <item href="Image00043.jpg" id="id_109" media-type="image/jpeg"/>
+        <item href="Image00044.jpg" id="id_110" media-type="image/jpeg"/>
+        <item href="Image00045.jpg" id="id_111" media-type="image/jpeg"/>
+        <item href="Image00046.jpg" id="id_112" media-type="image/jpeg"/>
+        <item href="Image00047.jpg" id="id_113" media-type="image/jpeg"/>
+        <item href="Image00048.jpg" id="id_114" media-type="image/jpeg"/>
+        <item href="Image00049.jpg" id="id_115" media-type="image/jpeg"/>
+        <item href="Image00050.jpg" id="id_116" media-type="image/jpeg"/>
+        <item href="Image00051.jpg" id="id_117" media-type="image/jpeg"/>
+        <item href="Image00052.jpg" id="id_118" media-type="image/jpeg"/>
+        <item href="Image00053.jpg" id="id_119" media-type="image/jpeg"/>
+        <item href="Image00054.jpg" id="id_120" media-type="image/jpeg"/>
+        <item href="Image00055.jpg" id="id_121" media-type="image/jpeg"/>
+        <item href="Image00056.jpg" id="id_122" media-type="image/jpeg"/>
+        <item href="Image00057.jpg" id="id_123" media-type="image/jpeg"/>
+        <item href="Image00058.jpg" id="id_124" media-type="image/jpeg"/>
+        <item href="Image00059.jpg" id="id_125" media-type="image/jpeg"/>
+        <item href="Image00060.jpg" id="id_126" media-type="image/jpeg"/>
+        <item href="Image00061.jpg" id="id_127" media-type="image/jpeg"/>
+        <item href="Image00062.jpg" id="id_128" media-type="image/jpeg"/>
+        <item href="Image00063.jpg" id="id_129" media-type="image/jpeg"/>
+        <item href="Image00064.jpg" id="id_130" media-type="image/jpeg"/>
+        <item href="Image00065.jpg" id="id_131" media-type="image/jpeg"/>
+        <item href="Image00066.jpg" id="cover-image" media-type="image/jpeg" properties="cover-image"/>
+        <item href="Image00068.jpg" id="id_133" media-type="image/jpeg"/>
+        <item href="flow0001.css" id="id_134" media-type="text/css"/>
+        <item href="flow0002.css" id="id_135" media-type="text/css"/>
+        <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
+   </manifest>
+   <spine toc = "ncx">
+        <itemref idref="id_1"/>
+        <itemref idref="id_2"/>
+        <itemref idref="id_3"/>
+        <itemref idref="id_4"/>
+        <itemref idref="id_5"/>
+        <itemref idref="id_6"/>
+        <itemref idref="id_7"/>
+        <itemref idref="id_8"/>
+        <itemref idref="id_9"/>
+        <itemref idref="id_10"/>
+        <itemref idref="id_11"/>
+        <itemref idref="id_12"/>
+        <itemref idref="id_13"/>
+        <itemref idref="id_14"/>
+        <itemref idref="id_15"/>
+        <itemref idref="id_16"/>
+        <itemref idref="id_17"/>
+        <itemref idref="id_18"/>
+        <itemref idref="id_19"/>
+        <itemref idref="id_20"/>
+        <itemref idref="id_21"/>
+        <itemref idref="id_22"/>
+        <itemref idref="id_23"/>
+        <itemref idref="id_24"/>
+        <itemref idref="id_25"/>
+        <itemref idref="id_26"/>
+        <itemref idref="id_27"/>
+        <itemref idref="id_28"/>
+        <itemref idref="id_29"/>
+        <itemref idref="id_30"/>
+        <itemref idref="id_31"/>
+        <itemref idref="id_32"/>
+        <itemref idref="id_33"/>
+        <itemref idref="id_34"/>
+        <itemref idref="id_35"/>
+        <itemref idref="id_36"/>
+        <itemref idref="id_37"/>
+        <itemref idref="id_38"/>
+        <itemref idref="id_39"/>
+        <itemref idref="id_40"/>
+        <itemref idref="id_41"/>
+        <itemref idref="id_42"/>
+        <itemref idref="id_43"/>
+        <itemref idref="id_44"/>
+        <itemref idref="id_45"/>
+        <itemref idref="id_46"/>
+        <itemref idref="id_47"/>
+        <itemref idref="id_48"/>
+        <itemref idref="id_49"/>
+        <itemref idref="id_50"/>
+        <itemref idref="id_51"/>
+        <itemref idref="id_52"/>
+        <itemref idref="id_53"/>
+        <itemref idref="id_54"/>
+        <itemref idref="id_55"/>
+        <itemref idref="id_56"/>
+        <itemref idref="id_57"/>
+        <itemref idref="id_58"/>
+        <itemref idref="id_59"/>
+        <itemref idref="id_60"/>
+        <itemref idref="id_61"/>
+        <itemref idref="id_62"/>
+        <itemref idref="id_63"/>
+        <itemref idref="id_64"/>
+        <itemref idref="id_65"/>
+   </spine>
+   <guide>
+        <reference type="text" title="Start" href="text00007.html#ch1-5-back" />
+        <reference type="toc" title="Table of Contents" href="text00006.html" />
+   </guide>
+</package>

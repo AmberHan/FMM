@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+   <head>
+      <meta name="dtb:uid" content="bookid"/>
+      <meta name="dtb:depth" content="0"/>
+      <meta name="dtb:totalPageCount" content="0"/>
+      <meta name="dtb:maxPageNumber" content="0"/>
+   </head>
+   <docTitle>
+      <text>UnKnown</text>
+   </docTitle>
+   <navMap>
+     <navPoint id="id1" playOrder="1">
+       <navLabel>
+         <text>书名页</text>
+       </navLabel>
+       <content src="text00001.html"/>
+     </navPoint>
+     <navPoint id="id2" playOrder="2">
+       <navLabel>
+         <text>版权页</text>
+       </navLabel>
+       <content src="text00001.html"/>
+     </navPoint>
+     <navPoint id="id3" playOrder="3">
+       <navLabel>
+         <text>总序</text>
+       </navLabel>
+       <content src="text00003.html"/>
+     </navPoint>
+     <navPoint id="id4" playOrder="4">
+       <navLabel>
+         <text>凡例</text>
+       </navLabel>
+       <content src="text00004.html"/>
+     </navPoint>
+     <navPoint id="id5" playOrder="5">
+       <navLabel>
+         <text>我辈钟情似此——《紫钗记》述评</text>
+       </navLabel>
+       <content src="text00005.html"/>
+     </navPoint>
+     <navPoint id="id6" playOrder="6">
+       <navLabel>
+         <text>目录</text>
+       </navLabel>
+       <content src="text00006.html"/>
+     </navPoint>
+     <navPoint id="id7" playOrder="7">
+       <navLabel>
+         <text>题词</text>
+       </navLabel>
+       <content src="text00007.html#ch1-5-back"/>
+     </navPoint>
+     <navPoint id="id8" playOrder="8">
+       <navLabel>
+         <text>第一出　本传开宗</text>
+       </navLabel>
+       <content src="text00008.html#ch1-6-back"/>
+     </navPoint>
+     <navPoint id="id9" playOrder="9">
+       <navLabel>
+         <text>第二出　春日言怀</text>
+       </navLabel>
+       <content src="text00009.html#ch1-7-back"/>
+     </navPoint>
+     <navPoint id="id10" playOrder="10">
+       <navLabel>
+         <text>第三出　插钗新赏</text>
+       </navLabel>
+       <content src="text00010.html#ch1-8-back"/>
+     </navPoint>
+     <navPoint id="id11" playOrder="11">
+       <navLabel>
+         <text>第四出　谒鲍述娇</text>
+       </navLabel>
+       <content src="text00011.html#ch1-9-back"/>
+     </navPoint>
+     <navPoint id="id12" playOrder="12">
+       <navLabel>
+         <text>第五出　许放观灯</text>
+       </navLabel>
+       <content src="text00012.html#ch1-10-back"/>
+     </navPoint>
+     <navPoint id="id13" playOrder="13">
+       <navLabel>
+         <text>第六出　堕钗灯影</text>
+       </navLabel>
+       <content src="text00013.html#ch1-11-back"/>
+     </navPoint>
+     <navPoint id="id14" playOrder="14">
+       <navLabel>
+         <text>第七出　托鲍谋钗</text>
+       </navLabel>
+       <content src="text00014.html"/>
+     </navPoint>
+     <navPoint id="id15" playOrder="15">
+       <navLabel>
+         <text>第八出　佳期议允</text>
+       </navLabel>
+       <content src="text00015.html"/>
+     </navPoint>
+     <navPoint id="id16" playOrder="16">
+       <navLabel>
+         <text>第九出　得鲍成言</text>
+       </navLabel>
+       <content src="text00016.html#ch1-14-back"/>
+     </navPoint>
+     <navPoint id="id17" playOrder="17">
+       <navLabel>
+         <text>第十出　回求仆马</text>
+       </navLabel>
+       <content src="text00017.html"/>
+     </navPoint>
+     <navPoint id="id18" playOrder="18">
+       <navLabel>
+         <text>第十一出　妆台巧絮</text>
+       </navLabel>
+       <content src="text00018.html#ch1-16-back"/>
+     </navPoint>
+     <navPoint id="id19" playOrder="19">
+       <navLabel>
+         <text>第十二出　仆马临门</text>
+       </navLabel>
+       <content src="text00019.html#ch1-17-back"/>
+     </navPoint>
+     <navPoint id="id20" playOrder="20">
+       <navLabel>
+         <text>第十三出　花朝合卺</text>
+       </navLabel>
+       <content src="text00020.html#ch1-18-back"/>
+     </navPoint>
+     <navPoint id="id21" playOrder="21">
+       <navLabel>
+         <text>第十四出　狂朋试喜</text>
+       </navLabel>
+       <content src="text00021.html#ch1-19-back"/>
+     </navPoint>
+     <navPoint id="id22" playOrder="22">
+       <navLabel>
+         <text>第十五出　权夸选士</text>
+       </navLabel>
+       <content src="text00022.html#ch1-20-back"/>
+     </navPoint>
+     <navPoint id="id23" playOrder="23">
+       <navLabel>
+         <text>第十六出　花院盟香</text>
+       </navLabel>
+       <content src="text00023.html#ch1-21-back"/>
+     </navPoint>
+     <navPoint id="id24" playOrder="24">
+       <navLabel>
+         <text>第十七出　春闱赴洛</text>
+       </navLabel>
+       <content src="text00024.html#ch1-22-back"/>
+     </navPoint>
+     <navPoint id="id25" playOrder="25">
+       <navLabel>
+         <text>第十八出　黄堂言饯</text>
+       </navLabel>
+       <content src="text00025.html#ch1-23-back"/>
+     </navPoint>
+     <navPoint id="id26" playOrder="26">
+       <navLabel>
+         <text>第十九出　节镇登坛</text>
+       </navLabel>
+       <content src="text00026.html#ch1-24-back"/>
+     </navPoint>
+     <navPoint id="id27" playOrder="27">
+       <navLabel>
+         <text>第二十出　春愁望捷</text>
+       </navLabel>
+       <content src="text00027.html#ch1-25-back"/>
+     </navPoint>
+     <navPoint id="id28" playOrder="28">
+       <navLabel>
+         <text>第二十一出　杏苑题名</text>
+       </navLabel>
+       <content src="text00028.html#ch1-26-back"/>
+     </navPoint>
+     <navPoint id="id29" playOrder="29">
+       <navLabel>
+         <text>第二十二出　权嗔计贬</text>
+       </navLabel>
+       <content src="text00029.html#ch1-27-back"/>
+     </navPoint>
+     <navPoint id="id30" playOrder="30">
+       <navLabel>
+         <text>第二十三出　荣归燕喜</text>
+       </navLabel>
+       <content src="text00030.html#ch1-28-back"/>
+     </navPoint>
+     <navPoint id="id31" playOrder="31">
+       <navLabel>
+         <text>第二十四出　门楣絮别</text>
+       </navLabel>
+       <content src="text00031.html#ch1-29-back"/>
+     </navPoint>
+     <navPoint id="id32" playOrder="32">
+       <navLabel>
+         <text>第二十五出　折柳阳关</text>
+       </navLabel>
+       <content src="text00032.html#ch1-30-back"/>
+     </navPoint>
+     <navPoint id="id33" playOrder="33">
+       <navLabel>
+         <text>第二十六出　陇上题诗</text>
+       </navLabel>
+       <content src="text00033.html#ch1-31-back"/>
+     </navPoint>
+     <navPoint id="id34" playOrder="34">
+       <navLabel>
+         <text>第二十七出　女侠轻财</text>
+       </navLabel>
+       <content src="text00034.html#ch1-32-back"/>
+     </navPoint>
+     <navPoint id="id35" playOrder="35">
+       <navLabel>
+         <text>第二十八出　雄番窃霸</text>
+       </navLabel>
+       <content src="text00035.html#ch1-33-back"/>
+     </navPoint>
+     <navPoint id="id36" playOrder="36">
+       <navLabel>
+         <text>第二十九出　高宴飞书</text>
+       </navLabel>
+       <content src="text00036.html#ch1-34-back"/>
+     </navPoint>
+     <navPoint id="id37" playOrder="37">
+       <navLabel>
+         <text>第三十出　河西款檄</text>
+       </navLabel>
+       <content src="text00037.html#ch1-35-back"/>
+     </navPoint>
+     <navPoint id="id38" playOrder="38">
+       <navLabel>
+         <text>第三十一出　吹台避暑</text>
+       </navLabel>
+       <content src="text00038.html#ch1-36-back"/>
+     </navPoint>
+     <navPoint id="id39" playOrder="39">
+       <navLabel>
+         <text>第三十二出　计局收才</text>
+       </navLabel>
+       <content src="text00039.html#ch1-37-back"/>
+     </navPoint>
+     <navPoint id="id40" playOrder="40">
+       <navLabel>
+         <text>第三十三出　巧夕惊秋</text>
+       </navLabel>
+       <content src="text00040.html#ch1-38-back"/>
+     </navPoint>
+     <navPoint id="id41" playOrder="41">
+       <navLabel>
+         <text>第三十四出　边愁写意</text>
+       </navLabel>
+       <content src="text00041.html#ch1-39-back"/>
+     </navPoint>
+     <navPoint id="id42" playOrder="42">
+       <navLabel>
+         <text>第三十五出　节镇还朝</text>
+       </navLabel>
+       <content src="text00042.html"/>
+     </navPoint>
+     <navPoint id="id43" playOrder="43">
+       <navLabel>
+         <text>第三十六出　泪展银屏</text>
+       </navLabel>
+       <content src="text00043.html#ch1-41-back"/>
+     </navPoint>
+     <navPoint id="id44" playOrder="44">
+       <navLabel>
+         <text>第三十七出　移参孟门</text>
+       </navLabel>
+       <content src="text00044.html#ch1-42-back"/>
+     </navPoint>
+     <navPoint id="id45" playOrder="45">
+       <navLabel>
+         <text>第三十八出　计哨讹传</text>
+       </navLabel>
+       <content src="text00045.html#ch1-43-back"/>
+     </navPoint>
+     <navPoint id="id46" playOrder="46">
+       <navLabel>
+         <text>第三十九出　泪烛裁诗</text>
+       </navLabel>
+       <content src="text00046.html#ch1-44-back"/>
+     </navPoint>
+     <navPoint id="id47" playOrder="47">
+       <navLabel>
+         <text>第四十出　开笺泣玉</text>
+       </navLabel>
+       <content src="text00047.html#ch1-45-back"/>
+     </navPoint>
+     <navPoint id="id48" playOrder="48">
+       <navLabel>
+         <text>第四十一出　延媒劝赘</text>
+       </navLabel>
+       <content src="text00048.html#ch1-46-back"/>
+     </navPoint>
+     <navPoint id="id49" playOrder="49">
+       <navLabel>
+         <text>第四十二出　婉拒强婚</text>
+       </navLabel>
+       <content src="text00049.html"/>
+     </navPoint>
+     <navPoint id="id50" playOrder="50">
+       <navLabel>
+         <text>第四十三出　缓婚收翠</text>
+       </navLabel>
+       <content src="text00050.html#ch1-48-back"/>
+     </navPoint>
+     <navPoint id="id51" playOrder="51">
+       <navLabel>
+         <text>第四十四出　冻卖珠钗</text>
+       </navLabel>
+       <content src="text00051.html#ch1-49-back"/>
+     </navPoint>
+     <navPoint id="id52" playOrder="52">
+       <navLabel>
+         <text>第四十五出　玉工伤感</text>
+       </navLabel>
+       <content src="text00052.html#ch1-50-back"/>
+     </navPoint>
+     <navPoint id="id53" playOrder="53">
+       <navLabel>
+         <text>第四十六出　哭收钗燕</text>
+       </navLabel>
+       <content src="text00053.html#ch1-51-back"/>
+     </navPoint>
+     <navPoint id="id54" playOrder="54">
+       <navLabel>
+         <text>第四十七出　怨撒金钱</text>
+       </navLabel>
+       <content src="text00054.html"/>
+     </navPoint>
+     <navPoint id="id55" playOrder="55">
+       <navLabel>
+         <text>第四十八出　醉侠闲评</text>
+       </navLabel>
+       <content src="text00055.html#ch1-53-back"/>
+     </navPoint>
+     <navPoint id="id56" playOrder="56">
+       <navLabel>
+         <text>第四十九出　晓窗圆梦</text>
+       </navLabel>
+       <content src="text00056.html#ch1-54-back"/>
+     </navPoint>
+     <navPoint id="id57" playOrder="57">
+       <navLabel>
+         <text>第五十出　玩钗疑叹</text>
+       </navLabel>
+       <content src="text00057.html"/>
+     </navPoint>
+     <navPoint id="id58" playOrder="58">
+       <navLabel>
+         <text>第五十一出　花前遇侠</text>
+       </navLabel>
+       <content src="text00058.html#ch1-56-back"/>
+     </navPoint>
+     <navPoint id="id59" playOrder="59">
+       <navLabel>
+         <text>第五十二出　剑合钗圆</text>
+       </navLabel>
+       <content src="text00059.html"/>
+     </navPoint>
+     <navPoint id="id60" playOrder="60">
+       <navLabel>
+         <text>第五十三出　节镇宣恩</text>
+       </navLabel>
+       <content src="text00060.html#ch1-58-back"/>
+     </navPoint>
+     <navPoint id="id61" playOrder="61">
+       <navLabel>
+         <text>附录一　霍小玉传</text>
+       </navLabel>
+       <content src="text00061.html"/>
+     </navPoint>
+     <navPoint id="id62" playOrder="62">
+       <navLabel>
+         <text>附录二　《紫钗记》主要版本</text>
+       </navLabel>
+       <content src="text00062.html"/>
+     </navPoint>
+     <navPoint id="id63" playOrder="63">
+       <navLabel>
+         <text>附录三　主要参考文献</text>
+       </navLabel>
+       <content src="text00063.html"/>
+     </navPoint>
+     <navPoint id="id64" playOrder="64">
+       <navLabel>
+         <text>后记</text>
+       </navLabel>
+       <content src="text00064.html"/>
+     </navPoint>
+   </navMap>
+</ncx>

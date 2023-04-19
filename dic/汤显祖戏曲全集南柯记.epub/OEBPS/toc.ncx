@@ -1,0 +1,345 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="zh">
+<head>
+<meta content="4165149811" name="dtb:uid"/>
+<meta content="1" name="dtb:depth"/>
+<meta content="mobiunpack.py" name="dtb:generator"/>
+<meta content="0" name="dtb:totalPageCount"/>
+<meta content="0" name="dtb:maxPageNumber"/>
+</head>
+<docTitle>
+<text>南柯记</text>
+</docTitle>
+<navMap>
+    <navPoint id="np_1" playOrder="1">
+    <navLabel>
+    <text>书名页</text>
+    </navLabel>
+    <content src="Text/part0000.xhtml"/>
+    </navPoint>
+    <navPoint id="np_2" playOrder="2">
+    <navLabel>
+    <text>版权页</text>
+    </navLabel>
+    <content src="Text/part0001.xhtml"/>
+    </navPoint>
+    <navPoint id="np_3" playOrder="3">
+    <navLabel>
+    <text>总序</text>
+    </navLabel>
+    <content src="Text/part0003.xhtml"/>
+    </navPoint>
+    <navPoint id="np_4" playOrder="4">
+    <navLabel>
+    <text>凡例</text>
+    </navLabel>
+    <content src="Text/part0004.xhtml"/>
+    </navPoint>
+    <navPoint id="np_5" playOrder="5">
+    <navLabel>
+    <text>普天下梦南柯人似蚁——《南柯记》述评</text>
+    </navLabel>
+    <content src="Text/part0005.xhtml"/>
+    </navPoint>
+    <navPoint id="np_6" playOrder="6">
+    <navLabel>
+    <text>目录</text>
+    </navLabel>
+    <content src="Text/part0006.xhtml"/>
+    </navPoint>
+    <navPoint id="np_7" playOrder="7">
+    <navLabel>
+    <text>题词</text>
+    </navLabel>
+    <content src="Text/part0007.xhtml"/>
+    </navPoint>
+    <navPoint id="np_8" playOrder="8">
+    <navLabel>
+    <text>第一出　提世</text>
+    </navLabel>
+    <content src="Text/part0008.xhtml"/>
+    </navPoint>
+    <navPoint id="np_9" playOrder="9">
+    <navLabel>
+    <text>第二出　侠概</text>
+    </navLabel>
+    <content src="Text/part0009.xhtml"/>
+    </navPoint>
+    <navPoint id="np_10" playOrder="10">
+    <navLabel>
+    <text>第三出　树国</text>
+    </navLabel>
+    <content src="Text/part0010.xhtml"/>
+    </navPoint>
+    <navPoint id="np_11" playOrder="11">
+    <navLabel>
+    <text>第四出　禅请</text>
+    </navLabel>
+    <content src="Text/part0011.xhtml"/>
+    </navPoint>
+    <navPoint id="np_12" playOrder="12">
+    <navLabel>
+    <text>第五出　宫训</text>
+    </navLabel>
+    <content src="Text/part0012.xhtml"/>
+    </navPoint>
+    <navPoint id="np_13" playOrder="13">
+    <navLabel>
+    <text>第六出　谩遣</text>
+    </navLabel>
+    <content src="Text/part0013.xhtml"/>
+    </navPoint>
+    <navPoint id="np_14" playOrder="14">
+    <navLabel>
+    <text>第七出　偶见</text>
+    </navLabel>
+    <content src="Text/part0014.xhtml"/>
+    </navPoint>
+    <navPoint id="np_15" playOrder="15">
+    <navLabel>
+    <text>第八出　情著</text>
+    </navLabel>
+    <content src="Text/part0015.xhtml"/>
+    </navPoint>
+    <navPoint id="np_16" playOrder="16">
+    <navLabel>
+    <text>第九出　决婿</text>
+    </navLabel>
+    <content src="Text/part0016.xhtml"/>
+    </navPoint>
+    <navPoint id="np_17" playOrder="17">
+    <navLabel>
+    <text>第十出　就征</text>
+    </navLabel>
+    <content src="Text/part0017.xhtml"/>
+    </navPoint>
+    <navPoint id="np_18" playOrder="18">
+    <navLabel>
+    <text>第十一出　引谒</text>
+    </navLabel>
+    <content src="Text/part0018.xhtml"/>
+    </navPoint>
+    <navPoint id="np_19" playOrder="19">
+    <navLabel>
+    <text>第十二出　贰馆</text>
+    </navLabel>
+    <content src="Text/part0019.xhtml"/>
+    </navPoint>
+    <navPoint id="np_20" playOrder="20">
+    <navLabel>
+    <text>第十三出　尚主</text>
+    </navLabel>
+    <content src="Text/part0020.xhtml"/>
+    </navPoint>
+    <navPoint id="np_21" playOrder="21">
+    <navLabel>
+    <text>第十四出　伏戎</text>
+    </navLabel>
+    <content src="Text/part0021.xhtml"/>
+    </navPoint>
+    <navPoint id="np_22" playOrder="22">
+    <navLabel>
+    <text>第十五出　侍猎</text>
+    </navLabel>
+    <content src="Text/part0022.xhtml"/>
+    </navPoint>
+    <navPoint id="np_23" playOrder="23">
+    <navLabel>
+    <text>第十六出　得翁</text>
+    </navLabel>
+    <content src="Text/part0023.xhtml"/>
+    </navPoint>
+    <navPoint id="np_24" playOrder="24">
+    <navLabel>
+    <text>第十七出　议守</text>
+    </navLabel>
+    <content src="Text/part0024.xhtml"/>
+    </navPoint>
+    <navPoint id="np_25" playOrder="25">
+    <navLabel>
+    <text>第十八出　拜郡</text>
+    </navLabel>
+    <content src="Text/part0025.xhtml"/>
+    </navPoint>
+    <navPoint id="np_26" playOrder="26">
+    <navLabel>
+    <text>第十九出　荐佐</text>
+    </navLabel>
+    <content src="Text/part0026.xhtml"/>
+    </navPoint>
+    <navPoint id="np_27" playOrder="27">
+    <navLabel>
+    <text>第二十出　御饯</text>
+    </navLabel>
+    <content src="Text/part0027.xhtml"/>
+    </navPoint>
+    <navPoint id="np_28" playOrder="28">
+    <navLabel>
+    <text>第二十一出　录摄</text>
+    </navLabel>
+    <content src="Text/part0028.xhtml"/>
+    </navPoint>
+    <navPoint id="np_29" playOrder="29">
+    <navLabel>
+    <text>第二十二出　之郡</text>
+    </navLabel>
+    <content src="Text/part0029.xhtml"/>
+    </navPoint>
+    <navPoint id="np_30" playOrder="30">
+    <navLabel>
+    <text>第二十三出　念女</text>
+    </navLabel>
+    <content src="Text/part0030.xhtml"/>
+    </navPoint>
+    <navPoint id="np_31" playOrder="31">
+    <navLabel>
+    <text>第二十四出　风谣</text>
+    </navLabel>
+    <content src="Text/part0031.xhtml"/>
+    </navPoint>
+    <navPoint id="np_32" playOrder="32">
+    <navLabel>
+    <text>第二十五出　玩月</text>
+    </navLabel>
+    <content src="Text/part0032.xhtml"/>
+    </navPoint>
+    <navPoint id="np_33" playOrder="33">
+    <navLabel>
+    <text>第二十六出　启寇</text>
+    </navLabel>
+    <content src="Text/part0033.xhtml"/>
+    </navPoint>
+    <navPoint id="np_34" playOrder="34">
+    <navLabel>
+    <text>第二十七出　闺警</text>
+    </navLabel>
+    <content src="Text/part0034.xhtml"/>
+    </navPoint>
+    <navPoint id="np_35" playOrder="35">
+    <navLabel>
+    <text>第二十八出　雨阵</text>
+    </navLabel>
+    <content src="Text/part0035.xhtml"/>
+    </navPoint>
+    <navPoint id="np_36" playOrder="36">
+    <navLabel>
+    <text>第二十九出　围释</text>
+    </navLabel>
+    <content src="Text/part0036.xhtml"/>
+    </navPoint>
+    <navPoint id="np_37" playOrder="37">
+    <navLabel>
+    <text>第三十出　帅北</text>
+    </navLabel>
+    <content src="Text/part0037.xhtml"/>
+    </navPoint>
+    <navPoint id="np_38" playOrder="38">
+    <navLabel>
+    <text>第三十一出　系帅</text>
+    </navLabel>
+    <content src="Text/part0038.xhtml"/>
+    </navPoint>
+    <navPoint id="np_39" playOrder="39">
+    <navLabel>
+    <text>第三十二出　朝议</text>
+    </navLabel>
+    <content src="Text/part0039.xhtml"/>
+    </navPoint>
+    <navPoint id="np_40" playOrder="40">
+    <navLabel>
+    <text>第三十三出　召还</text>
+    </navLabel>
+    <content src="Text/part0040.xhtml"/>
+    </navPoint>
+    <navPoint id="np_41" playOrder="41">
+    <navLabel>
+    <text>第三十四出　卧辙</text>
+    </navLabel>
+    <content src="Text/part0041.xhtml"/>
+    </navPoint>
+    <navPoint id="np_42" playOrder="42">
+    <navLabel>
+    <text>第三十五出　芳陨</text>
+    </navLabel>
+    <content src="Text/part0042.xhtml"/>
+    </navPoint>
+    <navPoint id="np_43" playOrder="43">
+    <navLabel>
+    <text>第三十六出　还朝</text>
+    </navLabel>
+    <content src="Text/part0043.xhtml"/>
+    </navPoint>
+    <navPoint id="np_44" playOrder="44">
+    <navLabel>
+    <text>第三十七出　粲诱</text>
+    </navLabel>
+    <content src="Text/part0044.xhtml"/>
+    </navPoint>
+    <navPoint id="np_45" playOrder="45">
+    <navLabel>
+    <text>第三十八出　生恣</text>
+    </navLabel>
+    <content src="Text/part0045.xhtml"/>
+    </navPoint>
+    <navPoint id="np_46" playOrder="46">
+    <navLabel>
+    <text>第三十九出　象谴</text>
+    </navLabel>
+    <content src="Text/part0046.xhtml"/>
+    </navPoint>
+    <navPoint id="np_47" playOrder="47">
+    <navLabel>
+    <text>第四十出　疑惧</text>
+    </navLabel>
+    <content src="Text/part0047.xhtml"/>
+    </navPoint>
+    <navPoint id="np_48" playOrder="48">
+    <navLabel>
+    <text>第四十一出　遣生</text>
+    </navLabel>
+    <content src="Text/part0048.xhtml"/>
+    </navPoint>
+    <navPoint id="np_49" playOrder="49">
+    <navLabel>
+    <text>第四十二出　寻寤</text>
+    </navLabel>
+    <content src="Text/part0049.xhtml"/>
+    </navPoint>
+    <navPoint id="np_50" playOrder="50">
+    <navLabel>
+    <text>第四十三出　转情</text>
+    </navLabel>
+    <content src="Text/part0050.xhtml"/>
+    </navPoint>
+    <navPoint id="np_51" playOrder="51">
+    <navLabel>
+    <text>第四十四出　情尽</text>
+    </navLabel>
+    <content src="Text/part0051.xhtml"/>
+    </navPoint>
+    <navPoint id="np_52" playOrder="52">
+    <navLabel>
+    <text>附录一　南柯太守传</text>
+    </navLabel>
+    <content src="Text/part0052.xhtml"/>
+    </navPoint>
+    <navPoint id="np_53" playOrder="53">
+    <navLabel>
+    <text>附录二　《南柯记》主要版本</text>
+    </navLabel>
+    <content src="Text/part0053.xhtml"/>
+    </navPoint>
+    <navPoint id="np_54" playOrder="54">
+    <navLabel>
+    <text>附录三　主要参考文献</text>
+    </navLabel>
+    <content src="Text/part0054.xhtml"/>
+    </navPoint>
+    <navPoint id="np_55" playOrder="55">
+    <navLabel>
+    <text>后记</text>
+    </navLabel>
+    <content src="Text/part0055.xhtml"/>
+    </navPoint>
+  </navMap>
+</ncx>

@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+   <head>
+      <meta name="dtb:uid" content="bookid"/>
+      <meta name="dtb:depth" content="0"/>
+      <meta name="dtb:totalPageCount" content="0"/>
+      <meta name="dtb:maxPageNumber" content="0"/>
+   </head>
+   <docTitle>
+      <text>UnKnown</text>
+   </docTitle>
+   <navMap>
+     <navPoint id="id1" playOrder="1">
+       <navLabel>
+         <text>书名页</text>
+       </navLabel>
+       <content src="text00001.html"/>
+     </navPoint>
+     <navPoint id="id2" playOrder="2">
+       <navLabel>
+         <text>版权页</text>
+       </navLabel>
+       <content src="text00001.html"/>
+     </navPoint>
+     <navPoint id="id3" playOrder="3">
+       <navLabel>
+         <text>总序</text>
+       </navLabel>
+       <content src="text00003.html"/>
+     </navPoint>
+     <navPoint id="id4" playOrder="4">
+       <navLabel>
+         <text>凡例</text>
+       </navLabel>
+       <content src="text00004.html"/>
+     </navPoint>
+     <navPoint id="id5" playOrder="5">
+       <navLabel>
+         <text>举世方熟邯郸一梦——《邯郸记》述评</text>
+       </navLabel>
+       <content src="text00005.html"/>
+     </navPoint>
+     <navPoint id="id6" playOrder="6">
+       <navLabel>
+         <text>目录</text>
+       </navLabel>
+       <content src="text00006.html"/>
+     </navPoint>
+     <navPoint id="id7" playOrder="7">
+       <navLabel>
+         <text>题词</text>
+       </navLabel>
+       <content src="text00007.html#ch1-5-back"/>
+     </navPoint>
+     <navPoint id="id8" playOrder="8">
+       <navLabel>
+         <text>第一出　标引</text>
+       </navLabel>
+       <content src="text00008.html#ch1-6-back"/>
+     </navPoint>
+     <navPoint id="id9" playOrder="9">
+       <navLabel>
+         <text>第二出　行田</text>
+       </navLabel>
+       <content src="text00009.html#ch1-7-back"/>
+     </navPoint>
+     <navPoint id="id10" playOrder="10">
+       <navLabel>
+         <text>第三出　度世</text>
+       </navLabel>
+       <content src="text00010.html#ch1-8-back"/>
+     </navPoint>
+     <navPoint id="id11" playOrder="11">
+       <navLabel>
+         <text>第四出　入梦</text>
+       </navLabel>
+       <content src="text00011.html#ch1-9-back"/>
+     </navPoint>
+     <navPoint id="id12" playOrder="12">
+       <navLabel>
+         <text>第五出　招贤</text>
+       </navLabel>
+       <content src="text00012.html#ch1-10-back"/>
+     </navPoint>
+     <navPoint id="id13" playOrder="13">
+       <navLabel>
+         <text>第六出　赠试</text>
+       </navLabel>
+       <content src="text00013.html"/>
+     </navPoint>
+     <navPoint id="id14" playOrder="14">
+       <navLabel>
+         <text>第七出　夺元</text>
+       </navLabel>
+       <content src="text00014.html#ch1-12-back"/>
+     </navPoint>
+     <navPoint id="id15" playOrder="15">
+       <navLabel>
+         <text>第八出　骄宴</text>
+       </navLabel>
+       <content src="text00015.html#ch1-13-back"/>
+     </navPoint>
+     <navPoint id="id16" playOrder="16">
+       <navLabel>
+         <text>第九出　虏动</text>
+       </navLabel>
+       <content src="text00016.html#ch1-14-back"/>
+     </navPoint>
+     <navPoint id="id17" playOrder="17">
+       <navLabel>
+         <text>第十出　外补</text>
+       </navLabel>
+       <content src="text00017.html"/>
+     </navPoint>
+     <navPoint id="id18" playOrder="18">
+       <navLabel>
+         <text>第十一出　凿陕</text>
+       </navLabel>
+       <content src="text00018.html"/>
+     </navPoint>
+     <navPoint id="id19" playOrder="19">
+       <navLabel>
+         <text>第十二出　边急</text>
+       </navLabel>
+       <content src="text00019.html"/>
+     </navPoint>
+     <navPoint id="id20" playOrder="20">
+       <navLabel>
+         <text>第十三出　望幸</text>
+       </navLabel>
+       <content src="text00020.html#ch1-18-back"/>
+     </navPoint>
+     <navPoint id="id21" playOrder="21">
+       <navLabel>
+         <text>第十四出　东巡</text>
+       </navLabel>
+       <content src="text00021.html"/>
+     </navPoint>
+     <navPoint id="id22" playOrder="22">
+       <navLabel>
+         <text>第十五出　西谍</text>
+       </navLabel>
+       <content src="text00022.html#ch1-20-back"/>
+     </navPoint>
+     <navPoint id="id23" playOrder="23">
+       <navLabel>
+         <text>第十六出　大捷</text>
+       </navLabel>
+       <content src="text00023.html"/>
+     </navPoint>
+     <navPoint id="id24" playOrder="24">
+       <navLabel>
+         <text>第十七出　勒功</text>
+       </navLabel>
+       <content src="text00024.html#ch1-22-back"/>
+     </navPoint>
+     <navPoint id="id25" playOrder="25">
+       <navLabel>
+         <text>第十八出　闺喜</text>
+       </navLabel>
+       <content src="text00025.html#ch1-23-back"/>
+     </navPoint>
+     <navPoint id="id26" playOrder="26">
+       <navLabel>
+         <text>第十九出　飞语</text>
+       </navLabel>
+       <content src="text00026.html#ch1-24-back"/>
+     </navPoint>
+     <navPoint id="id27" playOrder="27">
+       <navLabel>
+         <text>第二十出　死窜</text>
+       </navLabel>
+       <content src="text00027.html#ch1-25-back"/>
+     </navPoint>
+     <navPoint id="id28" playOrder="28">
+       <navLabel>
+         <text>第二十一出　谗快</text>
+       </navLabel>
+       <content src="text00028.html"/>
+     </navPoint>
+     <navPoint id="id29" playOrder="29">
+       <navLabel>
+         <text>第二十二出　备苦</text>
+       </navLabel>
+       <content src="text00029.html#ch1-27-back"/>
+     </navPoint>
+     <navPoint id="id30" playOrder="30">
+       <navLabel>
+         <text>第二十三出　织恨</text>
+       </navLabel>
+       <content src="text00030.html#ch1-28-back"/>
+     </navPoint>
+     <navPoint id="id31" playOrder="31">
+       <navLabel>
+         <text>第二十四出　功白</text>
+       </navLabel>
+       <content src="text00031.html"/>
+     </navPoint>
+     <navPoint id="id32" playOrder="32">
+       <navLabel>
+         <text>第二十五出　召还</text>
+       </navLabel>
+       <content src="text00032.html#ch1-30-back"/>
+     </navPoint>
+     <navPoint id="id33" playOrder="33">
+       <navLabel>
+         <text>第二十六出　杂庆</text>
+       </navLabel>
+       <content src="text00033.html#ch1-31-back"/>
+     </navPoint>
+     <navPoint id="id34" playOrder="34">
+       <navLabel>
+         <text>第二十七出　极欲</text>
+       </navLabel>
+       <content src="text00034.html"/>
+     </navPoint>
+     <navPoint id="id35" playOrder="35">
+       <navLabel>
+         <text>第二十八出　友叹</text>
+       </navLabel>
+       <content src="text00035.html#ch1-33-back"/>
+     </navPoint>
+     <navPoint id="id36" playOrder="36">
+       <navLabel>
+         <text>第二十九出　生寤</text>
+       </navLabel>
+       <content src="text00036.html"/>
+     </navPoint>
+     <navPoint id="id37" playOrder="37">
+       <navLabel>
+         <text>第三十出　合仙</text>
+       </navLabel>
+       <content src="text00037.html"/>
+     </navPoint>
+     <navPoint id="id38" playOrder="38">
+       <navLabel>
+         <text>附录一　枕中记</text>
+       </navLabel>
+       <content src="text00038.html"/>
+     </navPoint>
+     <navPoint id="id39" playOrder="39">
+       <navLabel>
+         <text>附录二　《邯郸记》主要版本</text>
+       </navLabel>
+       <content src="text00039.html"/>
+     </navPoint>
+     <navPoint id="id40" playOrder="40">
+       <navLabel>
+         <text>附录三　主要参考文献</text>
+       </navLabel>
+       <content src="text00040.html"/>
+     </navPoint>
+     <navPoint id="id41" playOrder="41">
+       <navLabel>
+         <text>后记</text>
+       </navLabel>
+       <content src="text00041.html"/>
+     </navPoint>
+   </navMap>
+</ncx>

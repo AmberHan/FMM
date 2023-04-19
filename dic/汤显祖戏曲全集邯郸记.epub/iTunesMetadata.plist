@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BKAllocatedSize</key>
+	<integer>4718592</integer>
+	<key>BKDisplayName</key>
+	<string>汤显祖戏曲全集邯郸记 (汤显祖) (z-lib.org)</string>
+	<key>BKGenerationCount</key>
+	<integer>2</integer>
+	<key>BKInsertionDate</key>
+	<integer>682245493</integer>
+	<key>artistName</key>
+	<string>汤显祖</string>
+	<key>book-info</key>
+	<dict>
+		<key>cover-image-hash</key>
+		<string>C95132914199B9AEDFE9498E3036359B</string>
+		<key>cover-image-path</key>
+		<string>OEBPS/Image00057.jpg</string>
+		<key>mime-type</key>
+		<string>application/epub+zip</string>
+		<key>package-file-hash</key>
+		<string>BA59ED1B6D413FEE89EE7A721D76C66C</string>
+		<key>publisher-unique-id</key>
+		<string>urn:uuid:273fd756-62f2-4858-8d67-99e08f24bba9</string>
+		<key>unique-id</key>
+		<integer>-4972255650375584712</integer>
+		<key>update-level</key>
+		<integer>2</integer>
+	</dict>
+	<key>isPreview</key>
+	<false/>
+	<key>itemName</key>
+	<string>汤显祖戏曲全集:邯郸记</string>
+	<key>updateDate</key>
+	<date>2022-08-15T08:38:13Z</date>
+</dict>
+</plist>

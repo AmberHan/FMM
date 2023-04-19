@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>artistName</key>
+	<string>汤显祖</string>
+	<key>book-info</key>
+	<dict>
+		<key>cover-image-hash</key>
+		<string>D6134D08E346181E20ACC4A9F74C6719</string>
+		<key>cover-image-path</key>
+		<string>OEBPS/Images/cover00474.jpeg</string>
+		<key>mime-type</key>
+		<string>application/epub+zip</string>
+		<key>package-file-hash</key>
+		<string>E40CC21976CADDC303AE4DDF9589AD14</string>
+		<key>publisher-unique-id</key>
+		<string>4070619197</string>
+		<key>unique-id</key>
+		<integer>4984805218694156026</integer>
+		<key>update-level</key>
+		<integer>2</integer>
+	</dict>
+	<key>itemName</key>
+	<string>汤显祖戏曲全集:牡丹亭</string>
+	<key>playlistName</key>
+	<string>汤显祖戏曲全集:牡丹亭</string>
+	<key>releaseDate</key>
+	<string>2015-02-28 16:00:00+00:00</string>
+</dict>
+</plist>
