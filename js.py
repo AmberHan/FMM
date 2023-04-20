@@ -114,7 +114,8 @@ def isChinese(uchar):
 
 
 if __name__ == '__main__':
-    set_name = "牡丹亭"
-    txt_path = f'dic/汤显祖{set_name}.txt'
-    rets = getQuPaiList()
-    writeCsv(f'{set_name}句式', ['出', '曲牌', '是否前腔', '顺序', '句式'], rets)
+    for i in ['南柯记', '牡丹亭', '紫钗记', '邯郸记']:
+        set_name = i
+        txt_path = f'dic/汤显祖{set_name}.txt'
+        rets = getQuPaiList()
+        writeCsv(f'汤显祖{set_name}句式', ['出', '曲牌', '是否前腔', '顺序', '句式'], rets)

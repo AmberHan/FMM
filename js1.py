@@ -4,7 +4,6 @@
 # !@Author : DongHan Yang
 # !@File   : js.py
 import csv
-import re
 
 
 def writeCsv(filename, header, datas):
@@ -15,74 +14,103 @@ def writeCsv(filename, header, datas):
         writer.writerows(datas)
 
 
-startXC = False
-
-
 def getQuPaiList():
-    start, isFirst = False, False
-    global startXC
-    index, qIndex = 0, 0  # 序号（无颜色为0）、曲牌序号（递增）
+    start = False
     rets = []  # 输出csv列表
-    rets0 = []  # '序号','剧本','出','曲牌','是否前腔','曲牌序号'
+    rets0 = []  # 出-曲牌-是否前腔-字数
     with open(txt_path, 'r', encoding="utf_8_sig") as f:
-        fist = True
         for line in f:
             line = line.strip()
             if not line:
                 continue
-            if line.count("下场诗"):
-                startXC = True
             if line.count("注释"):
                 start = False
             s = line.split()
             if s[0].split('[')[0] != '' and s[0].split('[')[0][0] == "第" and s[0].split('[')[0][-1] == "出":
                 start = True
-                startXC = False
                 chu = s[0].split('[')[0]  # get 出
+                seq = 0  # 顺序
             elif start:
-                nextIndexRec = [0]
-                while (nextIndexRec[0] != -1):
-                    preIndx = nextIndexRec[0]
-                    quPai = getQupai(line, nextIndexRec, ["［", "[", "【"], ["］", "]", "】"])
-                    ret1 = getLineColors(line, preIndx, nextIndexRec[0] + 1)
+                nextIndex = [0]
+                while (nextIndex[0] != -1):
+                    quPai = getQupai(line, nextIndex, ["［", "[", "【"], ["］", "]", "】"])
                     if quPai != "":
-                        if fist:
-                            ret3 = []
                         isHan = False  # 判断前腔中文
-                        if line[nextIndexRec[0]] == '】':
+                        if line[nextIndex[0]] == '】':
                             isHan = True
+                        quJs, quChen, quBin, quChang = getQuPaiJs(line, nextIndex)
                         isQQ = "否" if quPai != "前腔" else "是"
                         quPai = quPai if quPai != "前腔" else pre
+                        seq += 1
+                        quJs = [0] if quJs == [] else quJs
+                        quChen = [0] if quChen == [] else quChen
+                        quBin = [0] if quBin == [] else quBin
+                        quChang = [0] if quChang == [] else quChang
+                        rets0 = [chu, quPai, isQQ, seq, quJs, quChen, quBin, quChang]
                         if isHan:
                             pre = quPai
-                        # 处理两个序号
-                        qIndex += 1
-                        index += 1
-                        if len(ret3) == 0 and not fist:
-                            index -= 1
-                            rets0[0] = 0
-                            rets.append(rets0)
-                            print(rets0)
-                        else:
-                            for ret in ret3:
-                                rets.append(rets0 + ret)
-                                print(rets0 + ret)
-                        rets0 = [index, set_name, chu, quPai, isQQ, qIndex]
-                        ret3 = []
-                        if fist:
-                            fist = False
-                    elif len(ret1) != 0:
-                        ret3.extend(ret1)
-    # sorted_lst = sorted(rets, key=lambda x: (x[5], x[-1]))
-    sorted_data = sorted(rets, key=lambda x: (x[5], x[-1]))
-    results = []
-    for d in sorted_data:
-        if len(d) > 6:
-            results.append(d[:-1])
-        else:
-            results.append(d)
-    print(results)
-    return results
+                        # 如果取消分列；取消下面两行代码
+                        # for ret in quJs:
+                        #     rets0.append(ret)
+                        rets.append(rets0)
+    print("Csv:", rets)
+    return rets
+
+
+def isEnd(word, flag1, flag2):
+    if word is "{":
+        flag1 = True
+    if word is "}":
+        flag1 = False
+    if word is "#":
+        flag2 = True
+    if word is "*":
+        flag2 = False
+    return flag1, flag2
+
+
+# 输入：line：一行内容; nextIndex: 起始位;
+# 输出：quPai: 曲牌字数列表
+def getQuPaiJs(line, nextIndex):
+    quPai = ""
+    chen, bin, chang = "", "", ""
+    quPaiList = []
+    chenList, binList, changList = [], [], []
+    totalNum = 0
+    flag1, flag2 = False, False  # flag1 {承字}；flag2 #宾白*
+    for index in range(nextIndex[0] + 1, len(line)):
+        word = line[index]
+        if word in ["{", "#", "}", "*"]:
+            flag1, flag2 = isEnd(word, flag1, flag2)
+            continue
+        if word in ["“", "”", "《", "》", " "]:
+            continue
+        if word in ["【", "[", "［"] and index + 1 < len(line) and isChinese(line[index + 1]):
+            nextIndex[0] = index
+            return quPaiList, chenList, binList, changList
+        if word in ["【", "[", "(", "（", "［"]:
+            totalNum += 1
+        elif word in ["]", "】", ")", "）", "］"]:
+            totalNum -= 1
+        elif totalNum == 0 and not isChinese(word):
+            quPaiList.append(len(quPai))
+            chenList.append(len(chen))
+            binList.append(len(bin))
+            changList.append(len(chang))
+            quPai = ""
+            chen, bin, chang = "", "", ""
+            if len(quPai) != len(chen) + len(bin) + len(chang):
+                print('err')
+        elif totalNum == 0 and isChinese(word):
+            quPai += word
+            if flag1:
+                chen += word
+            elif flag2:
+                bin += word
+            else:
+                chang += word
+    nextIndex[0] = -1
+    return quPaiList, chenList, binList, changList
 
 
 # 输入：line：一行内容; nextIndex: 起始位; sFlag: 起始标志; eFlag: 中止标志
@@ -105,108 +133,6 @@ def getQupai(line, nextIndex, sFlag, eFlag):
     return quPai
 
 
-# 输入：line：一行内容; preIndx: 起始位; nextIndex: 中止标志
-# 输出：'色彩','色彩前两字','色彩后两字','色彩类型'
-def getLineColors(line, preIndx, nextIndex):
-    # 全部的一行
-    if nextIndex == 0:
-        return getLineColor(line)
-    else:
-        return getLineColor(line[preIndx:nextIndex])
-
-
-def getLineColor(line):
-    # 定义颜色列表和结果列表
-    colors = readColor()
-    result = []
-    isCount = 0
-    # 遍历字符串中的每个字符
-    for i, color in enumerate(colors):
-        pattern = re.compile(color)
-        match = pattern.search(line)
-        while match:
-            start, end = match.span()
-            # print(start, end)
-            mask = ((1 << (end - start)) - 1) << start  # 构造掩码，将从 start 到 end 位置为 1
-            if bin(mask & isCount).count('1'):
-                isCount |= mask
-                match = pattern.search(line, end)
-                continue
-            isCount |= mask
-            start_index = max(0, start - 2)
-            start_i = start
-            while start_i > start_index:
-                if start_i - 1 >= 0 and line[start_i - 1] in ['，', '。', '！', '？', '[', ']', '）', '　', '］', '［', '【',
-                                                              '】', '﹐', '“']:
-                    break
-                start_i -= 1
-            # result.append(line[start_i:i])
-            # 查找颜色后两个汉字
-            end_index = min(len(line), end + 1)
-            end_i = end - 1
-            while end_i < end_index:
-                if end_i + 1 < len(line) and line[end_i + 1] in ['，', '。', '！', '？', '[', ']', '）', '　', '］', '［', '【',
-                                                                 '】', '﹐', '“']:
-                    break
-                end_i += 1
-            # result.append([color, line[start_i:i], line[i + 1:end_i]])
-            raw_data = line[start_i:end_i + 1]
-            type = brackets(line, raw_data)
-            all_data = get_field_with(line, raw_data)
-            if all_data is None:
-                print("error")
-            result.append([color, raw_data.replace(" ", ""), all_data.replace(" ", ""), type, start])
-            match = pattern.search(line, end)
-    return result
-
-
-def brackets(line, data):
-    if startXC:
-        return '下场诗'
-    if is_in_brackets(line, data, ['【', '】']) or is_in_brackets(line, data, ['［', '］']):
-        return '曲牌'
-    if is_in_brackets(line, data, ['（', '）']):
-        return '括号'
-    return '正文'
-
-
-def is_in_brackets(line, data, flags):
-    """
-    判断字符 data 是否在括号内。
-    """
-    stack = []
-    begin = flags[0]
-    end = flags[1]
-    for i, ch in enumerate(line):
-        if ch == begin:
-            stack.append(i)
-        elif ch == end:
-            if stack:
-                left_bracket_index = stack.pop()
-                if line[left_bracket_index + 1:i].find(data) != -1:
-                    return True
-    return False
-
-
-pattern = r'[，“。！？\[\]）］［【】﹐]'
-
-
-def get_field_with(text, a):
-    fields = re.split(pattern, text)
-    for field in fields:
-        if a in field:
-            return field.strip()
-    return None
-
-
-# 得到颜色字典
-def readColor():
-    with open(filename, 'r', encoding='utf_8_sig') as f:
-        content = f.read()
-    word_list = [word.strip() for word in content.split()]
-    return word_list
-
-
 """判断一个unicode是否是汉字"""
 
 
@@ -220,11 +146,10 @@ def isChinese(uchar):
         return True
 
 
-# 牡丹亭、紫钗记、南柯记、邯郸记
-set_name = "邯郸记"
-filename = "./dic/color.txt"
 if __name__ == '__main__':
-    txt_path = f'dic/汤显祖{set_name}.txt'
-    rets = getQuPaiList()
-    # '出', '曲牌', '是否前腔', '顺序', '句式'
-    writeCsv(f'{set_name}色彩', ['序号', '剧本', '出', '曲牌', '是否前腔', '曲牌序号', '色彩', '色彩全字', '色彩全句', '色彩类型'], rets)
+    for i in ['南柯记', '牡丹亭', ]:  # '紫钗记', '邯郸记'
+        set_name = i
+        # set_name = '牡丹亭'
+        txt_path = f'dic/{set_name}.txt'
+        rets = getQuPaiList()
+        writeCsv(f'{set_name}句式', ['出', '曲牌', '是否前腔', '顺序', '全部句式', '承词', '宾白', '唱词'], rets)
