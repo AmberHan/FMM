@@ -12,10 +12,10 @@
 ### 4、sp1
 切割得到词牌名
 
-### 5、js
+### 5、js & js1 % cutTxt
 切割得到词牌和句式关系
-cutTxt：切割文本
-js1：其他内容  
+cutTxt：切割文本; 由epub生成txt，图片标记P
+js1：切割文本  
 
 ### 6、color
 颜色

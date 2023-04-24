@@ -7,6 +7,7 @@ import csv
 import ebooklib
 from ebooklib import epub
 from lxml import html
+import re
 
 
 def write_txt(set_name):
@@ -23,22 +24,43 @@ def write_txt(set_name):
             #     a.text = None
             for element in root.xpath('//span[@class="font2"]'):
                 if element.text is not None:
+                    remove_newlines(element)
                     element.text = '{' + element.text + '}'
                     element.attrib.pop('class', None)
                     element.set('style', 'font-weight: bold;')
+            for element in root.xpath('//span[@class="kindle-cn-bold"]'):
+                remove_newlines(element)
             for element in root.xpath('//span[@class="kindle-cn-kai"]'):
                 if element.text is not None:
+                    remove_newlines(element)
                     element.text = '#' + element.text + '*'
                     element.attrib.pop('class', None)
                     element.set('style', 'font-weight: bold;')
+            for child in root.xpath('//a'):
+                remove_newlines(child)
+            for child in root.xpath('//img'):
+                child.text = 'P'
+                remove_newlines(child)
+            for child in root.xpath('//sup'):
+                remove_newlines(child)
             paragraph_text = html.tostring(root, encoding='unicode', method='text')
+            # paragraph_text = re.sub(r'\r\n', '', paragraph_text)
             all_text += paragraph_text
     # 保存文本到文件
     with open(f'./dic/{set_name}.txt', 'w', encoding='utf-8') as f:
         f.write(all_text)
 
 
+def remove_newlines(child):
+    if child.head is not None:
+        child.head.tail = child.head.tail.replace('\n', '').replace('\r', '').replace('\t', '').replace(' ', '')
+    if child.text is not None:
+        child.text = child.text.replace('\n', '').replace('\r', '').replace('\t', '').replace(' ', '')
+    if child.tail is not None:
+        child.tail = child.tail.replace('\n', '').replace('\r', '').replace('\t', '').replace(' ', '')
+
+
 # 牡丹亭、紫钗记、南柯记、邯郸记
 if __name__ == '__main__':
-    for i in ['南柯记', '牡丹亭', '紫钗记', '邯郸记']:
+    for i in ['南柯记', '牡丹亭', '邯郸记', '紫钗记', ]:  # '南柯记', '牡丹亭',
         write_txt(i)

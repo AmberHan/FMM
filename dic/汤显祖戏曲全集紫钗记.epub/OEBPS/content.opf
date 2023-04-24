@@ -15,71 +15,71 @@
         <dc:title>汤显祖戏曲全集:紫钗记</dc:title>
    </metadata>
    <manifest>
-        <item href="text00000.html" id="id_1" media-type="application/xhtml+xml"/>
-        <item href="text00001.html" id="id_2" media-type="application/xhtml+xml"/>
-        <item href="text00002.html" id="id_3" media-type="application/xhtml+xml"/>
-        <item href="text00003.html" id="id_4" media-type="application/xhtml+xml"/>
-        <item href="text00004.html" id="id_5" media-type="application/xhtml+xml"/>
-        <item href="text00005.html" id="id_6" media-type="application/xhtml+xml"/>
-        <item href="text00006.html" id="id_7" media-type="application/xhtml+xml"/>
-        <item href="text00007.html" id="id_8" media-type="application/xhtml+xml"/>
-        <item href="text00008.html" id="id_9" media-type="application/xhtml+xml"/>
-        <item href="text00009.html" id="id_10" media-type="application/xhtml+xml"/>
-        <item href="text00010.html" id="id_11" media-type="application/xhtml+xml"/>
-        <item href="text00011.html" id="id_12" media-type="application/xhtml+xml"/>
-        <item href="text00012.html" id="id_13" media-type="application/xhtml+xml"/>
-        <item href="text00013.html" id="id_14" media-type="application/xhtml+xml"/>
-        <item href="text00014.html" id="id_15" media-type="application/xhtml+xml"/>
-        <item href="text00015.html" id="id_16" media-type="application/xhtml+xml"/>
-        <item href="text00016.html" id="id_17" media-type="application/xhtml+xml"/>
-        <item href="text00017.html" id="id_18" media-type="application/xhtml+xml"/>
-        <item href="text00018.html" id="id_19" media-type="application/xhtml+xml"/>
-        <item href="text00019.html" id="id_20" media-type="application/xhtml+xml"/>
-        <item href="text00020.html" id="id_21" media-type="application/xhtml+xml"/>
-        <item href="text00021.html" id="id_22" media-type="application/xhtml+xml"/>
-        <item href="text00022.html" id="id_23" media-type="application/xhtml+xml"/>
-        <item href="text00023.html" id="id_24" media-type="application/xhtml+xml"/>
-        <item href="text00024.html" id="id_25" media-type="application/xhtml+xml"/>
-        <item href="text00025.html" id="id_26" media-type="application/xhtml+xml"/>
-        <item href="text00026.html" id="id_27" media-type="application/xhtml+xml"/>
-        <item href="text00027.html" id="id_28" media-type="application/xhtml+xml"/>
-        <item href="text00028.html" id="id_29" media-type="application/xhtml+xml"/>
-        <item href="text00029.html" id="id_30" media-type="application/xhtml+xml"/>
-        <item href="text00030.html" id="id_31" media-type="application/xhtml+xml"/>
-        <item href="text00031.html" id="id_32" media-type="application/xhtml+xml"/>
-        <item href="text00032.html" id="id_33" media-type="application/xhtml+xml"/>
-        <item href="text00033.html" id="id_34" media-type="application/xhtml+xml"/>
-        <item href="text00034.html" id="id_35" media-type="application/xhtml+xml"/>
-        <item href="text00035.html" id="id_36" media-type="application/xhtml+xml"/>
-        <item href="text00036.html" id="id_37" media-type="application/xhtml+xml"/>
-        <item href="text00037.html" id="id_38" media-type="application/xhtml+xml"/>
-        <item href="text00038.html" id="id_39" media-type="application/xhtml+xml"/>
-        <item href="text00039.html" id="id_40" media-type="application/xhtml+xml"/>
-        <item href="text00040.html" id="id_41" media-type="application/xhtml+xml"/>
-        <item href="text00041.html" id="id_42" media-type="application/xhtml+xml"/>
-        <item href="text00042.html" id="id_43" media-type="application/xhtml+xml"/>
-        <item href="text00043.html" id="id_44" media-type="application/xhtml+xml"/>
-        <item href="text00044.html" id="id_45" media-type="application/xhtml+xml"/>
-        <item href="text00045.html" id="id_46" media-type="application/xhtml+xml"/>
-        <item href="text00046.html" id="id_47" media-type="application/xhtml+xml"/>
-        <item href="text00047.html" id="id_48" media-type="application/xhtml+xml"/>
-        <item href="text00048.html" id="id_49" media-type="application/xhtml+xml"/>
-        <item href="text00049.html" id="id_50" media-type="application/xhtml+xml"/>
-        <item href="text00050.html" id="id_51" media-type="application/xhtml+xml"/>
-        <item href="text00051.html" id="id_52" media-type="application/xhtml+xml"/>
-        <item href="text00052.html" id="id_53" media-type="application/xhtml+xml"/>
-        <item href="text00053.html" id="id_54" media-type="application/xhtml+xml"/>
-        <item href="text00054.html" id="id_55" media-type="application/xhtml+xml"/>
-        <item href="text00055.html" id="id_56" media-type="application/xhtml+xml"/>
-        <item href="text00056.html" id="id_57" media-type="application/xhtml+xml"/>
-        <item href="text00057.html" id="id_58" media-type="application/xhtml+xml"/>
-        <item href="text00058.html" id="id_59" media-type="application/xhtml+xml"/>
-        <item href="text00059.html" id="id_60" media-type="application/xhtml+xml"/>
-        <item href="text00060.html" id="id_61" media-type="application/xhtml+xml"/>
-        <item href="text00061.html" id="id_62" media-type="application/xhtml+xml"/>
-        <item href="text00062.html" id="id_63" media-type="application/xhtml+xml"/>
-        <item href="text00063.html" id="id_64" media-type="application/xhtml+xml"/>
-        <item href="text00064.html" id="id_65" media-type="application/xhtml+xml"/>
+        <item href="Text/text00000.html" id="id_1" media-type="application/xhtml+xml"/>
+        <item href="Text/text00001.html" id="id_2" media-type="application/xhtml+xml"/>
+        <item href="Text/text00002.html" id="id_3" media-type="application/xhtml+xml"/>
+        <item href="Text/text00003.html" id="id_4" media-type="application/xhtml+xml"/>
+        <item href="Text/text00004.html" id="id_5" media-type="application/xhtml+xml"/>
+        <item href="Text/text00005.html" id="id_6" media-type="application/xhtml+xml"/>
+        <item href="Text/text00006.html" id="id_7" media-type="application/xhtml+xml"/>
+        <item href="Text/text00007.html" id="id_8" media-type="application/xhtml+xml"/>
+        <item href="Text/text00008.html" id="id_9" media-type="application/xhtml+xml"/>
+        <item href="Text/text00009.html" id="id_10" media-type="application/xhtml+xml"/>
+        <item href="Text/text00010.html" id="id_11" media-type="application/xhtml+xml"/>
+        <item href="Text/text00011.html" id="id_12" media-type="application/xhtml+xml"/>
+        <item href="Text/text00012.html" id="id_13" media-type="application/xhtml+xml"/>
+        <item href="Text/text00013.html" id="id_14" media-type="application/xhtml+xml"/>
+        <item href="Text/text00014.html" id="id_15" media-type="application/xhtml+xml"/>
+        <item href="Text/text00015.html" id="id_16" media-type="application/xhtml+xml"/>
+        <item href="Text/text00016.html" id="id_17" media-type="application/xhtml+xml"/>
+        <item href="Text/text00017.html" id="id_18" media-type="application/xhtml+xml"/>
+        <item href="Text/text00018.html" id="id_19" media-type="application/xhtml+xml"/>
+        <item href="Text/text00019.html" id="id_20" media-type="application/xhtml+xml"/>
+        <item href="Text/text00020.html" id="id_21" media-type="application/xhtml+xml"/>
+        <item href="Text/text00021.html" id="id_22" media-type="application/xhtml+xml"/>
+        <item href="Text/text00022.html" id="id_23" media-type="application/xhtml+xml"/>
+        <item href="Text/text00023.html" id="id_24" media-type="application/xhtml+xml"/>
+        <item href="Text/text00024.html" id="id_25" media-type="application/xhtml+xml"/>
+        <item href="Text/text00025.html" id="id_26" media-type="application/xhtml+xml"/>
+        <item href="Text/text00026.html" id="id_27" media-type="application/xhtml+xml"/>
+        <item href="Text/text00027.html" id="id_28" media-type="application/xhtml+xml"/>
+        <item href="Text/text00028.html" id="id_29" media-type="application/xhtml+xml"/>
+        <item href="Text/text00029.html" id="id_30" media-type="application/xhtml+xml"/>
+        <item href="Text/text00030.html" id="id_31" media-type="application/xhtml+xml"/>
+        <item href="Text/text00031.html" id="id_32" media-type="application/xhtml+xml"/>
+        <item href="Text/text00032.html" id="id_33" media-type="application/xhtml+xml"/>
+        <item href="Text/text00033.html" id="id_34" media-type="application/xhtml+xml"/>
+        <item href="Text/text00034.html" id="id_35" media-type="application/xhtml+xml"/>
+        <item href="Text/text00035.html" id="id_36" media-type="application/xhtml+xml"/>
+        <item href="Text/text00036.html" id="id_37" media-type="application/xhtml+xml"/>
+        <item href="Text/text00037.html" id="id_38" media-type="application/xhtml+xml"/>
+        <item href="Text/text00038.html" id="id_39" media-type="application/xhtml+xml"/>
+        <item href="Text/text00039.html" id="id_40" media-type="application/xhtml+xml"/>
+        <item href="Text/text00040.html" id="id_41" media-type="application/xhtml+xml"/>
+        <item href="Text/text00041.html" id="id_42" media-type="application/xhtml+xml"/>
+        <item href="Text/text00042.html" id="id_43" media-type="application/xhtml+xml"/>
+        <item href="Text/text00043.html" id="id_44" media-type="application/xhtml+xml"/>
+        <item href="Text/text00044.html" id="id_45" media-type="application/xhtml+xml"/>
+        <item href="Text/text00045.html" id="id_46" media-type="application/xhtml+xml"/>
+        <item href="Text/text00046.html" id="id_47" media-type="application/xhtml+xml"/>
+        <item href="Text/text00047.html" id="id_48" media-type="application/xhtml+xml"/>
+        <item href="Text/text00048.html" id="id_49" media-type="application/xhtml+xml"/>
+        <item href="Text/text00049.html" id="id_50" media-type="application/xhtml+xml"/>
+        <item href="Text/text00050.html" id="id_51" media-type="application/xhtml+xml"/>
+        <item href="Text/text00051.html" id="id_52" media-type="application/xhtml+xml"/>
+        <item href="Text/text00052.html" id="id_53" media-type="application/xhtml+xml"/>
+        <item href="Text/text00053.html" id="id_54" media-type="application/xhtml+xml"/>
+        <item href="Text/text00054.html" id="id_55" media-type="application/xhtml+xml"/>
+        <item href="Text/text00055.html" id="id_56" media-type="application/xhtml+xml"/>
+        <item href="Text/text00056.html" id="id_57" media-type="application/xhtml+xml"/>
+        <item href="Text/text00057.html" id="id_58" media-type="application/xhtml+xml"/>
+        <item href="Text/text00058.html" id="id_59" media-type="application/xhtml+xml"/>
+        <item href="Text/text00059.html" id="id_60" media-type="application/xhtml+xml"/>
+        <item href="Text/text00060.html" id="id_61" media-type="application/xhtml+xml"/>
+        <item href="Text/text00061.html" id="id_62" media-type="application/xhtml+xml"/>
+        <item href="Text/text00062.html" id="id_63" media-type="application/xhtml+xml"/>
+        <item href="Text/text00063.html" id="id_64" media-type="application/xhtml+xml"/>
+        <item href="Text/text00064.html" id="id_65" media-type="application/xhtml+xml"/>
         <item href="Image00000.jpg" id="id_66" media-type="image/jpeg"/>
         <item href="Image00001.jpg" id="id_67" media-type="image/jpeg"/>
         <item href="Image00002.jpg" id="id_68" media-type="image/jpeg"/>
@@ -220,7 +220,7 @@
         <itemref idref="id_65"/>
    </spine>
    <guide>
-        <reference type="text" title="Start" href="text00007.html#ch1-5-back" />
-        <reference type="toc" title="Table of Contents" href="text00006.html" />
+        <reference type="text" title="Start" href="Text/text00007.html#ch1-5-back" />
+        <reference type="toc" title="Table of Contents" href="Text/text00006.html" />
    </guide>
 </package>

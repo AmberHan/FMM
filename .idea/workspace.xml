@@ -2,13 +2,85 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46c557ae-57b8-4656-a069-c26aee772f9d" name="Default Changelist" comment="edit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv/csv.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv/南柯记句式.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/南柯记句式.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/csv/牡丹亭句式.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/牡丹亭句式.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集1.epub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js.py" beforeDir="false" afterPath="$PROJECT_DIR$/js.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cutTxt.py" beforeDir="false" afterPath="$PROJECT_DIR$/cutTxt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/南柯记.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dic/南柯记.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/content.opf" beforeDir="false" afterPath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/content.opf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/flow0001.css" beforeDir="false" afterPath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/flow0001.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/flow0002.css" beforeDir="false" afterPath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/flow0002.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00000.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00001.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00002.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00003.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00004.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00005.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00006.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00007.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00008.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00009.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00010.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00011.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00012.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00013.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00014.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00015.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00016.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00017.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00018.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00019.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00020.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00021.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00022.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00023.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00024.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00025.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00026.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00027.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00028.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00029.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00030.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00031.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00032.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00033.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00034.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00035.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00036.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00037.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00038.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00039.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00040.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00041.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00042.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00043.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00044.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00045.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00046.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00047.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00048.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00049.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00050.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00051.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00052.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00053.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00054.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00055.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00056.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00057.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00058.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00059.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00060.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00061.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00062.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00063.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/汤显祖戏曲全集紫钗记.epub/OEBPS/text00064.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/牡丹亭.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dic/牡丹亭.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/紫钗记.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dic/紫钗记.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dic/邯郸记.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dic/邯郸记.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js1.py" beforeDir="false" afterPath="$PROJECT_DIR$/js1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +93,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-972">
-              <caret line="86" column="20" lean-forward="true" selection-start-line="86" selection-start-column="20" selection-end-line="86" selection-end-column="20" />
+            <state relative-caret-position="414">
+              <caret line="154" column="40" lean-forward="true" selection-start-line="154" selection-start-column="40" selection-end-line="154" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="109">
+                <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -30,8 +114,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cutTxt.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="23" column="59" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="59" />
+            <state relative-caret-position="208">
+              <caret line="63" column="26" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
+              <folding>
+                <element signature="e#121#131#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,18 +197,18 @@
         <option value="$PROJECT_DIR$/csv/邯郸记色彩.csv" />
         <option value="$PROJECT_DIR$/dic/汤显祖牡丹亭.txt" />
         <option value="$PROJECT_DIR$/js2.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/js.py" />
         <option value="$PROJECT_DIR$/cutTxt.py" />
         <option value="$PROJECT_DIR$/js1.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1806" />
-    <option name="y" value="138" />
+    <option name="x" value="1805" />
+    <option name="y" value="135" />
     <option name="width" value="1940" />
-    <option name="height" value="922" />
+    <option name="height" value="925" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -352,7 +439,7 @@
     <frame x="1913" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18031704" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18031704" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -477,6 +564,16 @@
           <line>40</line>
           <option name="timeStamp" value="132" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/cutTxt.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/cutTxt.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -490,22 +587,7 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
       <expression>
-        <expression-string>element.tail.replace('\n','').replace('\t','').replace('\r','')</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>element.tail.replace('\n','').replace('\t','')</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>element.tail.replace('','\n')</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>element.tail</expression-string>
+        <expression-string>child</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
@@ -515,27 +597,37 @@
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>root.xpath('//span[@class=&quot;font2&quot;]')</expression-string>
+        <expression-string>child.head</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>root.xpath(&quot;//a&quot;)</expression-string>
+        <expression-string>child.head.text</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>root.xpath('//*p')</expression-string>
+        <expression-string>child.tag</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>root.xpath('*//p')</expression-string>
+        <expression-string>remove_newlines(child)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>root.xpath('//p')</expression-string>
+        <expression-string>a</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>root.xpath('//a')</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>paragraph_text</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
@@ -683,48 +775,48 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/csv/南柯记色彩.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="76">
           <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/csv/紫钗记色彩.csv">
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv/紫钗记色彩.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="160">
           <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/csv/邯郸记色彩.csv">
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv/邯郸记色彩.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="735">
           <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/csv/牡丹亭色彩.csv">
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv/牡丹亭色彩.csv">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="185" column="20" selection-start-line="185" selection-start-column="20" selection-end-line="185" selection-end-column="20" />
+        </state>
       </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="97">
           <caret line="347" column="29" selection-start-line="347" selection-start-column="26" selection-end-line="347" selection-end-column="29" />
         </state>
       </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="185" column="20" selection-start-line="185" selection-start-column="20" selection-end-line="185" selection-end-column="20" />
-        </state>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
     <entry file="file://D:/pycharmp/venv/Lib/site-packages/ebooklib/epub.py">
@@ -741,16 +833,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-          <folding>
-            <element signature="e#121#131#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/js2.py" />
     <entry file="file://$PROJECT_DIR$/js.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="302">
@@ -758,27 +841,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cutTxt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="63" column="26" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
+          <folding>
+            <element signature="e#121#131#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="214">
-            <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+          <first_editor relative-caret-position="109">
+            <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cutTxt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="23" column="59" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-972">
-          <caret line="86" column="20" lean-forward="true" selection-start-line="86" selection-start-column="20" selection-end-line="86" selection-end-column="20" />
+        <state relative-caret-position="414">
+          <caret line="154" column="40" lean-forward="true" selection-start-line="154" selection-start-column="40" selection-end-line="154" selection-end-column="40" />
         </state>
       </provider>
     </entry>

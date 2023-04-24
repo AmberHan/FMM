@@ -137,6 +137,8 @@ def getQupai(line, nextIndex, sFlag, eFlag):
 
 
 def isChinese(uchar):
+    if uchar == 'P':  # 图片
+        return True
     if uchar >= u'\u4e00' and uchar <= u'\u9fa5':
         return True
     elif (uchar >= u'\u0020' and uchar <= u'\u007f') or (u'\u2000' and uchar <= u'\u206f') \
@@ -147,7 +149,7 @@ def isChinese(uchar):
 
 
 if __name__ == '__main__':
-    for i in ['南柯记', '牡丹亭', ]:  # '紫钗记', '邯郸记'
+    for i in ['南柯记', '牡丹亭', '紫钗记', '邯郸记']:  # '紫钗记', '邯郸记','南柯记', '牡丹亭'
         set_name = i
         # set_name = '牡丹亭'
         txt_path = f'dic/{set_name}.txt'
