@@ -28,7 +28,7 @@ def write_txt(set_name):
                     element.text = '{' + element.text + '}'
                     element.attrib.pop('class', None)
                     element.set('style', 'font-weight: bold;')
-            for element in root.xpath('//span[contains(@class, "kindle-cn-kai")]'):
+            for element in root.xpath('//span[@class="kindle-cn-bold"]'):
                 remove_newlines(element)
             for element in root.xpath('//p[contains(@class, "kindle-cn-kai")]'):
                 txt = element.xpath('.//text()')

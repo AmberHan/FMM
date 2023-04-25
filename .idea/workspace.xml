@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46c557ae-57b8-4656-a069-c26aee772f9d" name="Default Changelist" comment="edit">
-      <change beforePath="$PROJECT_DIR$/csv/南柯记句式.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/南柯记句式.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv/牡丹亭句式.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/牡丹亭句式.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/csv/紫钗记句式.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/紫钗记句式.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/csv/邯郸记句式.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/邯郸记句式.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cutTxt.py" beforeDir="false" afterPath="$PROJECT_DIR$/cutTxt.py" afterDir="false" />
@@ -11,7 +9,6 @@
       <change beforePath="$PROJECT_DIR$/dic/牡丹亭.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dic/牡丹亭.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dic/紫钗记.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dic/紫钗记.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dic/邯郸记.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dic/邯郸记.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1.py" beforeDir="false" afterPath="$PROJECT_DIR$/js1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,14 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="37" column="46" lean-forward="true" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
-              <folding>
-                <element signature="e#2204#2389#0" />
-              </folding>
+            <state relative-caret-position="87">
+              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -45,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cutTxt.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="30" column="79" selection-start-line="30" selection-start-column="79" selection-end-line="30" selection-end-column="79" />
+            <state relative-caret-position="42">
+              <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
               <folding>
                 <element signature="e#121#131#0" expanded="true" />
               </folding>
@@ -68,7 +62,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>print</find>
       <find>写丹青</find>
       <find>is_in_brackets</find>
       <find>brackets</find>
@@ -98,6 +91,7 @@
       <find>getQuPaiList</find>
       <find>getQuPaiJs</find>
       <find>rets0</find>
+      <find>#</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -140,15 +134,16 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-513" />
-    <option name="y" value="67" />
+    <option name="y" value="66" />
     <option name="width" value="2328" />
-    <option name="height" value="1106" />
+    <option name="height" value="1107" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -160,7 +155,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -378,8 +372,8 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3283859" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.27643785" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.20779221" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40630797" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38404453" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3283859" />
@@ -489,19 +483,9 @@
           <option name="timeStamp" value="89" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/cutTxt.py</url>
-          <line>36</line>
-          <option name="timeStamp" value="156" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/js1.py</url>
           <line>90</line>
           <option name="timeStamp" value="157" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/cutTxt.py</url>
-          <line>34</line>
-          <option name="timeStamp" value="159" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/js1.py</url>
@@ -518,6 +502,11 @@
           <line>141</line>
           <option name="timeStamp" value="163" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/cutTxt.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="164" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -530,6 +519,16 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>root.xpath('//span[contains(@class, &quot;kindle-cn-kai&quot;)]')</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>in root.xpath('//span[contains(@class, &quot;kindle-cn-kai&quot;)]')</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>PaList,line</expression-string>
         <language-id>Python</language-id>
@@ -562,16 +561,6 @@
       </expression>
       <expression>
         <expression-string>''.join(txt)</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>all_text</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>root.xpath('//p[@class=&quot;kindle-cn-kai&quot;]')</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
@@ -749,17 +738,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/csv/牡丹亭色彩.csv">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="185" column="20" selection-start-line="185" selection-start-column="20" selection-end-line="185" selection-end-column="20" />
-        </state>
-      </provider>
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="97">
           <caret line="347" column="29" selection-start-line="347" selection-start-column="26" selection-end-line="347" selection-end-column="29" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="185" column="20" selection-start-line="185" selection-start-column="20" selection-end-line="185" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -795,23 +784,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js1.py">
+    <entry file="file://$PROJECT_DIR$/cutTxt.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="37" column="46" lean-forward="true" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
+        <state relative-caret-position="42">
+          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
           <folding>
-            <element signature="e#2204#2389#0" />
+            <element signature="e#121#131#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cutTxt.py">
+    <entry file="file://$PROJECT_DIR$/js1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="30" column="79" selection-start-line="30" selection-start-column="79" selection-end-line="30" selection-end-column="79" />
-          <folding>
-            <element signature="e#121#131#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="87">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
         </state>
       </provider>
     </entry>
