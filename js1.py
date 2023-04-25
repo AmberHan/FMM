@@ -28,9 +28,14 @@ def getQuPaiList():
             s = line.split()
             if s[0].split('[')[0] != '' and s[0].split('[')[0][0] == "第" and s[0].split('[')[0][-1] == "出":
                 start = True
+                ForBB = []  # 前置
                 chu = s[0].split('[')[0]  # get 出
                 seq = 0  # 顺序
             elif start:
+                if line[0] == 'G':
+                    ForBB = getPaJs(line)
+                    if seq != 0:
+                        rets[-1].append(ForBB)
                 nextIndex = [0]
                 while (nextIndex[0] != -1):
                     quPai = getQupai(line, nextIndex, ["［", "[", "【"], ["］", "]", "】"])
@@ -38,7 +43,7 @@ def getQuPaiList():
                         isHan = False  # 判断前腔中文
                         if line[nextIndex[0]] == '】':
                             isHan = True
-                        quJs, quChen, quBin, quChang = getQuPaiJs(line, nextIndex)
+                        quJs, quChen, quBin, quChang, InBB = getQuPaiJs(line, nextIndex)
                         isQQ = "否" if quPai != "前腔" else "是"
                         quPai = quPai if quPai != "前腔" else pre
                         seq += 1
@@ -46,7 +51,8 @@ def getQuPaiList():
                         quChen = [0] if quChen == [] else quChen
                         quBin = [0] if quBin == [] else quBin
                         quChang = [0] if quChang == [] else quChang
-                        rets0 = [chu, quPai, isQQ, seq, quJs, quChen, quBin, quChang]
+                        rets0 = [chu, quPai, isQQ, seq, quJs, quChen, quBin, quChang, ForBB, InBB]
+                        ForBB = []
                         if isHan:
                             pre = quPai
                         # 如果取消分列；取消下面两行代码
@@ -58,13 +64,13 @@ def getQuPaiList():
 
 
 def isEnd(word, flag1, flag2):
-    if word is "{":
+    if word == "{":
         flag1 = True
-    if word is "}":
+    if word == "}":
         flag1 = False
-    if word is "#":
+    if word == "#":
         flag2 = True
-    if word is "*":
+    if word == "*":
         flag2 = False
     return flag1, flag2
 
@@ -77,7 +83,8 @@ def getQuPaiJs(line, nextIndex):
     quPaiList = []
     chenList, binList, changList = [], [], []
     totalNum = 0
-    flag1, flag2 = False, False  # flag1 {承字}；flag2 #宾白*
+    flag1 = False  # flag1 {承字}
+    flag2 = True if line[0] == 'B' else False  # ；flag2 #宾白*
     for index in range(nextIndex[0] + 1, len(line)):
         word = line[index]
         if word in ["{", "#", "}", "*"]:
@@ -87,7 +94,7 @@ def getQuPaiJs(line, nextIndex):
             continue
         if word in ["【", "[", "［"] and index + 1 < len(line) and isChinese(line[index + 1]):
             nextIndex[0] = index
-            return quPaiList, chenList, binList, changList
+            return quPaiList, chenList, binList, changList, quPaiList if line[0] == 'B' else []
         if word in ["【", "[", "(", "（", "［"]:
             totalNum += 1
         elif word in ["]", "】", ")", "）", "］"]:
@@ -110,7 +117,29 @@ def getQuPaiJs(line, nextIndex):
             else:
                 chang += word
     nextIndex[0] = -1
-    return quPaiList, chenList, binList, changList
+    return quPaiList, chenList, binList, changList, quPaiList if line[0] == 'B' else []
+
+
+def getPaJs(line):
+    PaPai = ""
+    PaList = []
+    totalNum = 0
+    for index in range(1, len(line)):
+        word = line[index]
+        if word in ["{", "#", "}", "*"]:
+            continue
+        if word in ["“", "”", "《", "》", " "]:
+            continue
+        if word in ["【", "[", "(", "（", "［"]:
+            totalNum += 1
+        elif word in ["]", "】", ")", "）", "］"]:
+            totalNum -= 1
+        elif totalNum == 0 and not isChinese(word):
+            PaList.append(len(PaPai))
+            PaPai = ''
+        elif totalNum == 0 and isChinese(word):
+            PaPai += word
+    return PaList
 
 
 # 输入：line：一行内容; nextIndex: 起始位; sFlag: 起始标志; eFlag: 中止标志
@@ -154,4 +183,5 @@ if __name__ == '__main__':
         # set_name = '牡丹亭'
         txt_path = f'dic/{set_name}.txt'
         rets = getQuPaiList()
-        writeCsv(f'{set_name}句式', ['出', '曲牌', '是否前腔', '顺序', '全部句式', '承词', '宾白', '唱词'], rets)
+        writeCsv(f'{set_name}句式', ['出', '曲牌', '是否前腔', '顺序', '全部句式', '承词', '宾白', '唱词', '前置宾白句式', '全宾白句式', '后置宾白句式', ],
+                 rets)

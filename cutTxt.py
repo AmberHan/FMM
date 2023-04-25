@@ -22,20 +22,27 @@ def write_txt(set_name):
             root = html.fromstring(chapter_content)
             # for a in root.xpath("//a"):
             #     a.text = None
-            for element in root.xpath('//span[@class="font2"]'):
+            for element in root.xpath('//span[contains(@class, "font2")]'):
                 if element.text is not None:
                     remove_newlines(element)
                     element.text = '{' + element.text + '}'
                     element.attrib.pop('class', None)
                     element.set('style', 'font-weight: bold;')
-            for element in root.xpath('//span[@class="kindle-cn-bold"]'):
+            for element in root.xpath('//span[contains(@class, "kindle-cn-kai")]'):
                 remove_newlines(element)
+            for element in root.xpath('//p[contains(@class, "kindle-cn-kai")]'):
+                txt = element.xpath('.//text()')
+                contains = any([s in ''.join(txt) for s in ["［", "【"]])
+                if contains:
+                    element.text = 'B' + element.text  # 宾白
+                else:
+                    element.text = 'G' + element.text  # 段落
+                element.tail = '*' + element.tail
             for element in root.xpath('//span[@class="kindle-cn-kai"]'):
                 if element.text is not None:
                     remove_newlines(element)
                     element.text = '#' + element.text + '*'
-                    element.attrib.pop('class', None)
-                    element.set('style', 'font-weight: bold;')
+                    # print(element.text)
             for child in root.xpath('//a'):
                 remove_newlines(child)
             for child in root.xpath('//img'):
