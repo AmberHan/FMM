@@ -99,7 +99,7 @@ def getQuPaiJs(line, nextIndex):
             totalNum += 1
         elif word in ["]", "】", ")", "）", "］"]:
             totalNum -= 1
-        elif totalNum == 0 and not isChinese(word):
+        elif totalNum == 0 and len(quPai) != 0 and not isChinese(word):
             quPaiList.append(len(quPai))
             chenList.append(len(chen))
             binList.append(len(bin))

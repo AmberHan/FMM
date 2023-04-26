@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46c557ae-57b8-4656-a069-c26aee772f9d" name="Default Changelist" comment="edit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv/南柯记句式.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/南柯记句式.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv/牡丹亭句式.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/牡丹亭句式.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/csv/紫钗记句式.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/紫钗记句式.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/csv/邯郸记句式.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/邯郸记句式.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cutTxt.py" beforeDir="false" afterPath="$PROJECT_DIR$/cutTxt.py" afterDir="false" />
@@ -9,6 +12,7 @@
       <change beforePath="$PROJECT_DIR$/dic/牡丹亭.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dic/牡丹亭.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dic/紫钗记.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dic/紫钗记.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dic/邯郸记.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dic/邯郸记.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1.py" beforeDir="false" afterPath="$PROJECT_DIR$/js1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+            <state relative-caret-position="108">
+              <caret line="100" column="25" lean-forward="true" selection-start-line="100" selection-start-column="25" selection-end-line="100" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -42,8 +46,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cutTxt.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+            <state relative-caret-position="250">
+              <caret line="50" column="57" selection-start-line="50" selection-start-column="57" selection-end-line="50" selection-end-column="57" />
               <folding>
                 <element signature="e#121#131#0" expanded="true" />
               </folding>
@@ -127,23 +131,22 @@
         <option value="$PROJECT_DIR$/js2.py" />
         <option value="$PROJECT_DIR$/js.py" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/js1.py" />
         <option value="$PROJECT_DIR$/cutTxt.py" />
+        <option value="$PROJECT_DIR$/js1.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-513" />
-    <option name="y" value="66" />
-    <option name="width" value="2328" />
-    <option name="height" value="1107" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="1831" />
+    <option name="y" value="185" />
+    <option name="width" value="1940" />
+    <option name="height" value="923" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -155,6 +158,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -164,16 +168,16 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\desk\FMM\dic" />
-      <recent name="D:\desk\FMM\" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\desk\FMM" />
       <recent name="D:\desk\FMM\dic" />
       <recent name="D:\desk\FMM\venv" />
       <recent name="D:\desk\NPL\csv" />
       <recent name="D:\desk\NPL\dic" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\desk\FMM\dic" />
+      <recent name="D:\desk\FMM\" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -364,16 +368,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="1913" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21683876" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18031704" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3283859" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.40630797" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.38404453" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40615836" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3797654" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3283859" />
@@ -502,11 +506,6 @@
           <line>141</line>
           <option name="timeStamp" value="163" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/cutTxt.py</url>
-          <line>43</line>
-          <option name="timeStamp" value="164" />
-        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -520,7 +519,32 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
       <expression>
+        <expression-string>element</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>root.xpath('//span[contains(@class, &quot;kindle-cn-kai&quot;)]')</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>html.tostring(root, encoding='unicode', method='text')</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>element.text</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>root.xpath('//span[@class=&quot;kindle-cn-kai&quot;]')</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>root.xpath('//span[@class=&quot;kindle-cn-bold&quot;]')</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
@@ -536,31 +560,6 @@
       </expression>
       <expression>
         <expression-string>PaList</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>word</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>PaPai</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>len(line)</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>getPaPaiJs(line)</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>''.join(txt)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
@@ -786,8 +785,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cutTxt.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+        <state relative-caret-position="250">
+          <caret line="50" column="57" selection-start-line="50" selection-start-column="57" selection-end-line="50" selection-end-column="57" />
           <folding>
             <element signature="e#121#131#0" expanded="true" />
           </folding>
@@ -796,8 +795,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        <state relative-caret-position="108">
+          <caret line="100" column="25" lean-forward="true" selection-start-line="100" selection-start-column="25" selection-end-line="100" selection-end-column="25" />
         </state>
       </provider>
     </entry>

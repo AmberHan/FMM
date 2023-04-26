@@ -25,9 +25,12 @@ def write_txt(set_name):
             for element in root.xpath('//span[contains(@class, "font2")]'):
                 if element.text is not None:
                     remove_newlines(element)
-                    element.text = '{' + element.text + '}'
-                    element.attrib.pop('class', None)
-                    element.set('style', 'font-weight: bold;')
+                    if element.tail is not None:
+                        element.text = '{' + element.text
+                        element.tail = '}' + element.tail
+                    else:
+                        element.text = '{' + element.text
+                        element.tail = '}'
             for element in root.xpath('//span[@class="kindle-cn-bold"]'):
                 remove_newlines(element)
             for element in root.xpath('//p[contains(@class, "kindle-cn-kai")]'):
@@ -38,10 +41,15 @@ def write_txt(set_name):
                 else:
                     element.text = 'G' + element.text  # 段落
                 element.tail = '*' + element.tail
-            for element in root.xpath('//span[@class="kindle-cn-kai"]'):
+            for element in root.xpath('//span[contains(@class, "kindle-cn-kai")]'):
                 if element.text is not None:
                     remove_newlines(element)
-                    element.text = '#' + element.text + '*'
+                    if element.tail is not None:
+                        element.text = '#' + element.text
+                        element.tail = '*' + element.tail
+                    else:
+                        element.text = '#' + element.text
+                        element.tail = '*'
                     # print(element.text)
             for child in root.xpath('//a'):
                 remove_newlines(child)
@@ -69,5 +77,5 @@ def remove_newlines(child):
 
 # 牡丹亭、紫钗记、南柯记、邯郸记
 if __name__ == '__main__':
-    for i in ['南柯记', '牡丹亭', '邯郸记', '紫钗记', ]:  # '南柯记', '牡丹亭',
+    for i in ['牡丹亭', '南柯记', '邯郸记', '紫钗记']:  # '南柯记', '牡丹亭',
         write_txt(i)
